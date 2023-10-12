@@ -26,11 +26,13 @@ In addition, we invited six experts with WoT development experience to independe
 [The visualized environmental property description tool.](http://47.101.169.122:9033/)
 
 ## User Study 1
-A study of user preferences for violation repair in WoT systems.([link](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/user-study/survey.docx))
+To understand the user preference for resolution actions, we conduct an online user study to analyze the correlation between the user-selected resolution action and the feature of the violation.([link](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/user-study/survey.docx))
+<!-- A study of user preferences for violation repair in WoT systems.([link](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/user-study/survey.docx)) -->
 
 ## Environment Representations
 The laboratory environment in [neo4j](http://1.117.166.48:7474/browser/)(bolt port: `7687`, no authentication)
 
 ## User Study 2
-Properties of environments built by participants using visualisation development tools in usability user studies.([link](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/user-study/user_study.json))
+We invite all of the 21 students (including 8 females) as participants who are familiar with the laboratory environment to specify the ten environment properties through the property configuration tool.([link](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/user-study/user_study.json))
+<!-- Properties of environments built by participants using visualisation development tools in usability user studies.([link](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/user-study/user_study.json)) -->
 
