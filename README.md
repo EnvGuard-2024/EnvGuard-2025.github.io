@@ -2,6 +2,9 @@
 
 
 ## Datasets
+We collected data in a real-world WoT environment and built a dataset to evaluate EnvGuard. The dataset is publicly available.
+[link](https://EnvGuard-2023.github.io/dataset)
+
 We conducted a 14-day continuous data collection in a laboratory WoT environment, recording user activities, application executions and environment changes by capturing every event and action from the initial environment state. The spatial layout and the deployed devices of the environment are illustrated as follows:
 <div align=center><img width="500" src="https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/layout.png"/></div>
 <!-- <img src="https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/layout.png" width="500px"> -->
@@ -18,8 +21,6 @@ Through interviews with staff in the environment, we obtained ten environmental 
 <!-- ![propertys](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/propertys.png) -->
 
 In addition, we invited six experts with WoT development experience to independently analyze and label the events and actions that violated the properties (Fleiss Kappa = 0.68) and resolve discrepancies through discussion to obtain the ground truth.
-
-[Dataset](https://EnvGuard-2023.github.io/dataset)
 
 ## GUI Tool
 [The visualized environmental property description tool.](http://47.101.169.122:9033/)
