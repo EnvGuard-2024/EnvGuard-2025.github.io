@@ -4,15 +4,21 @@
 ## Datasets
 
 We conducted a 14-day continuous data collection in a laboratory WoT environment, recording user activities, application executions and environment changes by capturing every event and action from the initial environment state. The spatial layout and the deployed devices of the environment are illustrated as follows:
-<img src="https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/layout.png" width="100px">
+
+<div align=center><img width="150" height="150" src="https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/layout.png"/></div>
+<!-- <img src="https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/layout.png" width="500px"> -->
 <!-- ![layout](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/layout.png) -->
 
 There are 21 students working and studying in the laboratory, and 5 types of WoT applications are deployed to provide convenience for daily office work. Details of the applications are described below:
-<img src="https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/application.png" width="100px">
+
+<div align=center><img width="150" height="150" src="https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/application.png"/></div>
+<!-- <img src="https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/application.png" width="400px"> -->
 <!-- ![application](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/application.png) -->
 
 Through interviews with staff in the environment, we obtained ten environmental properties that are expected to be satisfied (listed in appendix), including five spatial state properties and five temporal trace properties. The properties are as follows:
-<img src="https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/propertys.png" width="100px">
+
+<div align=center><img width="150" height="150" src="https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/propertys.png"/></div>
+<!-- <img src="https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/propertys.png" width="400px"> -->
 <!-- ![propertys](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/propertys.png) -->
 
 In addition, we invited six experts with WoT development experience to independently analyze and label the events and actions that violated the properties (Fleiss Kappa = 0.68) and resolve discrepancies through discussion to obtain the ground truth.
