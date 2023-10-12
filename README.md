@@ -1,7 +1,7 @@
 # EnvGuard-2023.github.io
 
 
-## Datasets
+## Dataset
 We collected data in a real-world WoT environment and built a dataset to evaluate EnvGuard. The dataset is publicly available.
 ([Dataset](https://EnvGuard-2023.github.io/dataset))
 
@@ -15,11 +15,12 @@ There are 21 students working and studying in the laboratory, and 5 types of WoT
 <!-- <img src="https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/application.png" width="400px"> -->
 <!-- ![application](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/application.png) -->
 
-Through interviews with staff in the environment, we obtained ten environment properties that are expected to be satisfied (listed in appendix), including five spatial state properties and five temporal trace properties, and we invited six experts with WoT development experience to independently analyze and label the events and actions that violated the properties (Fleiss Kappa = 0.68) and resolve discrepancies through discussion to obtain the ground truth.The properties are as follows:
+Through interviews with staff in the environment, we obtained ten environment properties that are expected to be satisfied (listed in appendix), including five spatial state properties and five temporal trace properties, and we invited six experts with WoT development experience to independently analyze and label the events and actions that violated the properties (Fleiss Kappa = 0.68) and resolve discrepancies through discussion to obtain the ground truth. The properties are as follows:
 <div align=center><img width="400" src="https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/propertys.png"/></div>
 <!-- <img src="https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/propertys.png" width="400px"> -->
 <!-- ![propertys](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/propertys.png) -->
 
+The dataset consists of attributes: {Name, Type, Location, Object, Timestamp, Payload Data, Source, Conflict, Fix, Method}, where Name means the name of the device service, Type means the type(action or event) of the device service, Location means the location where the device service occurs, Object means the object where the device service occurs, Timestamp means the time when the device service occurs, Payload Data means the time when the device service occurs, Source denotes the source of the device service, Conflict means the conflict caused by the device service, Fix means the possible fixing behavior of the device service, and Method means the way to fix the device service(Undo or Resolve).
 
 ## GUI Tool
 The visualized environment property description tool.([GUI](http://47.101.169.122:9033/))
