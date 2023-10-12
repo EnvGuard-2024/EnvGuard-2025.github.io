@@ -1,6 +1,6 @@
 # EnvGuard-2023.github.io
 ## Demo
-[https://EnvGuard-2023.github.io/EnvGuard-UI](https://EnvGuard-2023.github.io/EnvGuard-UI)
+[http://47.101.169.122:9033/](http://47.101.169.122:9033/)
 
 ## Environment Representations
 

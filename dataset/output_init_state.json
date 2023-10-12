@@ -1,0 +1,112 @@
+{
+    "Context": {
+        "device": {},
+        "state": {
+            "Temperature": -1,
+            "Humidity": 0,
+            "Brightness": -1,
+            "AirQuality": 0,
+            "Weather": "raining"
+        }
+    },
+    "Lab": {
+        "device": {
+            "AC": 0,
+            "Heater": 0,
+            "Humidifier": 0,
+            "Light": 1,
+            "Speaker": 0,
+            "Printer": 0,
+            "Curtain": 1,
+            "AirPurifier": 0,
+            "Window": 0,
+            "Door": 0
+        },
+        "state": {
+            "Temperature": -1,
+            "Brightness": 1,
+            "Humidity": -1,
+            "Noise": -1,
+            "AirQuality": 0,
+            "HumanState": 0
+        }
+    },
+    "MeetingRoomOne": {
+        "device": {
+            "AC": 0,
+            "TV": 0,
+            "Heater": 0,
+            "Humidifier": 0,
+            "Light": 1,
+            "Curtain": 1,
+            "AirPurifier": 0,
+            "Window": 1,
+            "Door": 0
+        },
+        "state": {
+            "Temperature": -1,
+            "Brightness": 1,
+            "Humidity": -1,
+            "Noise": 0,
+            "AirQuality": 1,
+            "HumanState": 0
+        }
+    },
+    "MeetingRoomTwo": {
+        "device": {
+            "AC": 0,
+            "TV": 0,
+            "Heater": 0,
+            "Humidifier": 0,
+            "Light": 1,
+            "Curtain": 0,
+            "AirPurifier": 0,
+            "Window": 1,
+            "Door": 0
+        },
+        "state": {
+            "Temperature": -1,
+            "Brightness": 1,
+            "Humidity": 0,
+            "Noise": 0,
+            "AirQuality": 1,
+            "HumanState": 0
+        }
+    },
+    "TeaRoom": {
+        "device": {
+            "WaterDispenser": 0,
+            "MicrowaveOven": 0,
+            "Humidifier": 0,
+            "Light": 0,
+            "Curtain": 0,
+            "AirPurifier": 0,
+            "Window": 1,
+            "Door": 0
+        },
+        "state": {
+            "Temperature": -1,
+            "Brightness": -1,
+            "Humidity": 0,
+            "Noise": 0,
+            "AirQuality": 0,
+            "HumanState": 0
+        }
+    },
+    "Corridor": {
+        "device": {
+            "Light": 0,
+            "Speaker": 0,
+            "Door": 0
+        },
+        "state": {
+            "Temperature": 0,
+            "Brightness": 0,
+            "Humidity": 0,
+            "Noise": 0,
+            "AirQuality": 0,
+            "HumanState": 0
+        },
+        "HumanState": 0
+    }
+}
