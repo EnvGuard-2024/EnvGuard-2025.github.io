@@ -10,7 +10,7 @@ We conducted a 14-day continuous data collection in a laboratory WoT environment
 <!-- ![layout](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/layout.png) -->
 
 There are 21 students working and studying in the laboratory, and 5 types of WoT applications are deployed to provide convenience for daily office work. Details of the applications are described below:
-<div align=center><img width="400" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/application"/></div>
+<div align=center><img width="400" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/application.png"/></div>
 <!-- <img src="https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/application.png" width="400px"> -->
 <!-- ![application](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/application.png) -->
 
