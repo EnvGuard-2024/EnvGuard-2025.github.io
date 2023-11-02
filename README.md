@@ -30,7 +30,7 @@ To understand the user preference for resolution actions, we conduct an online u
 <!-- A study of user preferences for violation repair in WoT systems.([link](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/user-study/survey.docx)) -->
 
 ## Environment Representations
-The environment representation of the smart laboratory WoT environment in [neo4j](http://1.117.166.48:7474/browser/)(bolt port: `7687`, username: `neo4j`, password: `12345678`)
+The environment representation of the smart laboratory WoT environment in [neo4j](http://47.101.169.122:7474/browser/)(bolt port: `7687`, username: `neo4j`, password: `12345678`)
 
 ## User Study 2
 We invite all of the 21 students (including 8 females) as participants who are familiar with the laboratory environment to specify the ten environment properties through the property configuration tool. The constructed properties are as follows:
