@@ -3,7 +3,7 @@
 
 ## Dataset
 We collected data in a real-world WoT environment and built a dataset to evaluate EnvGuard. The dataset is publicly available.
-([Dataset](https://EnvGuard-2023.github.io/dataset))
+([Dataset]([https://EnvGuard-2023.github.io/dataset](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/tree/master/dataset)))
 We conducted a 14-day continuous data collection in a laboratory WoT environment, recording user activities, application executions and environment changes by capturing every event and action from the initial environment state. The spatial layout and the deployed devices of the environment are illustrated as follows:
 <div align=center><img width="500" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/layout.png"/></div>
 <!-- <img src="https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/images/layout.png" width="500px"> -->
