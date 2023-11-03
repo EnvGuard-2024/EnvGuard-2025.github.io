@@ -26,7 +26,7 @@ The visualized environment property description tool.([GUI](http://47.101.169.12
 
 ## User Study 1
 To understand the user preference for resolution actions, we conduct an online user study to analyze the correlation between the user-selected resolution action and the feature of the violation. The survey questionnair is as follows:
-([User Study 1](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/user-study/survey.docx))
+([User Study 1](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/user-study/UserStudyOne_SurveyQuestionnair.docx))
 <!-- A study of user preferences for violation repair in WoT systems.([link](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/user-study/survey.docx)) -->
 
 ## Environment Representations
@@ -34,6 +34,6 @@ The environment representation of the smart laboratory WoT environment in [neo4j
 
 ## User Study 2
 We invite all of the 21 students (including 8 females) as participants who are familiar with the laboratory environment to specify the ten environment properties through the property configuration tool. The constructed properties are as follows:
-([User Study 2](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/user-study/user_study.json))
+([User Study 2](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/user-study/UserStudyTwo_ConstructedProperties.json))
 <!-- Properties of environments built by participants using visualisation development tools in usability user studies.([link](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/user-study/user_study.json)) -->
 
