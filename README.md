@@ -12,8 +12,8 @@ The dataset for the home environment is as follows:
 We conducted a 14-day continuous data collection in the smart office and smart home, recording user activities, application executions and environment changes by capturing every event and action from the initial environment state. 
 The spatial layout and the deployed devices of the smart office and the smart home are illustrated as follows:
 <div align=center>
-<img width="45%" style="margin-right:2%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/SmartOfficeEnv.png"/>
-<img width="45%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/SmartHomeEnv.png"/>
+<img width="43.5%" style="margin-right:2%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/SmartOfficeEnv.png"/>
+<img width="52%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/SmartHomeEnv.png"/>
 </div>
 </p>
 
