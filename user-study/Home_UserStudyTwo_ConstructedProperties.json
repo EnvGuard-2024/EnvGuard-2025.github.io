@@ -3,7 +3,6 @@
 		"id":1,
 		"user": "hk",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -14,7 +13,6 @@
     "id":2,
     "user": "hk",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -25,7 +23,6 @@
     "id":3,
     "user": "hk",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -36,7 +33,6 @@
     "id":4,
     "user": "hk",
 		"dsl": {
-			"id":4,
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
@@ -47,7 +43,6 @@
     "id":5,
     "user": "hk",
 		"dsl": {
-			"id":5,
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
@@ -58,7 +53,6 @@
     "id":6,
     "user": "hk",
 		"dsl": {
-			"id":6,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -69,7 +63,6 @@
     "id":7,
     "user": "hk",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
       "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
@@ -90,7 +83,6 @@
     "id":9,
     "user": "hk",
 		"dsl": {
-			"id":9,
 			"template": "event-state-time",
       "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
       "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
@@ -101,7 +93,6 @@
     "id":10,
     "user": "hk",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
       "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
@@ -112,7 +103,6 @@
 		"id":1,
 		"user": "ysj",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -123,7 +113,6 @@
     "id":2,
     "user": "ysj",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -134,7 +123,6 @@
     "id":3,
     "user": "ysj",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -145,7 +133,6 @@
     "id":4,
     "user": "ysj",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
@@ -156,7 +143,6 @@
     "id":5,
     "user": "ysj",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
@@ -167,7 +153,6 @@
     "id":6,
     "user": "ysj",
 		"dsl": {
-			"id":5,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -178,7 +163,6 @@
     "id":7,
     "user": "ysj",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
       "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
@@ -189,7 +173,6 @@
     "id":8,
     "user": "ysj",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
       "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
@@ -200,7 +183,6 @@
     "id":9,
     "user": "ysj",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
       "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
@@ -211,7 +193,6 @@
     "id":10,
     "user": "ysj",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Corridor.Speaker.on & Corridor.Speaker.off & 1min & always",
       "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.Speaker.off ] will [ always ] happen."
@@ -222,7 +203,6 @@
 		"id":1,
 		"user": "hmm",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -233,7 +213,6 @@
     "id":2,
     "user": "hmm",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -244,7 +223,6 @@
     "id":3,
     "user": "hmm",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -255,7 +233,6 @@
     "id":4,
     "user": "hmm",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "When [ TeaRoom.MicrowaveOven.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -266,7 +243,6 @@
     "id":5,
     "user": "hmm",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "When [ TeaRoom.WaterDispenser.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -277,7 +253,6 @@
     "id":6,
     "user": "hmm",
 		"dsl": {
-			"id":5,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -288,7 +263,6 @@
     "id":7,
     "user": "hmm",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
       "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
@@ -299,7 +273,6 @@
     "id":8,
     "user": "hmm",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
       "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
@@ -330,7 +303,6 @@
 		"id":1,
 		"user": "db",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -341,7 +313,6 @@
     "id":2,
     "user": "db",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -352,7 +323,6 @@
     "id":3,
     "user": "db",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -363,7 +333,6 @@
     "id":4,
     "user": "db",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "When [ TeaRoom.MicrowaveOven.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -374,7 +343,6 @@
     "id":5,
     "user": "db",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "When [ TeaRoom.WaterDispenser.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -385,7 +353,6 @@
     "id":6,
     "user": "db",
 		"dsl": {
-			"id":5,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -396,7 +363,6 @@
     "id":7,
     "user": "db",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
       "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
@@ -407,7 +373,6 @@
     "id":8,
     "user": "db",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
       "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
@@ -438,7 +403,6 @@
 		"id":1,
 		"user": "lyq",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -449,7 +413,6 @@
     "id":2,
     "user": "lyq",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -460,7 +423,6 @@
     "id":3,
     "user": "lyq",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -471,7 +433,6 @@
     "id":4,
     "user": "lyq",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "When [ TeaRoom.MicrowaveOven.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -482,7 +443,6 @@
     "id":5,
     "user": "lyq",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "When [ TeaRoom.WaterDispenser.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -493,7 +453,6 @@
     "id":6,
     "user": "lyq",
 		"dsl": {
-			"id":5,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -504,7 +463,6 @@
     "id":7,
     "user": "lyq",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low ] & 10min & always",
       "description": "After [ Lab.AirQuality.low ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
@@ -515,7 +473,6 @@
     "id":8,
     "user": "lyq",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
       "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
@@ -546,7 +503,6 @@
 		"id":1,
 		"user": "rjl",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -557,7 +513,6 @@
     "id":2,
     "user": "rjl",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -568,7 +523,6 @@
     "id":3,
     "user": "rjl",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -579,7 +533,6 @@
     "id":4,
     "user": "rjl",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "When [ TeaRoom.MicrowaveOven.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -590,7 +543,6 @@
     "id":5,
     "user": "rjl",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "When [ TeaRoom.WaterDispenser.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -601,7 +553,6 @@
     "id":6,
     "user": "rjl",
 		"dsl": {
-			"id":5,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -612,7 +563,6 @@
     "id":7,
     "user": "rjl",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
       "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
@@ -623,7 +573,6 @@
     "id":8,
     "user": "rjl",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
       "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
@@ -654,7 +603,6 @@
 		"id":1,
 		"user": "sly",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -665,7 +613,6 @@
     "id":2,
     "user": "sly",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -676,7 +623,6 @@
     "id":3,
     "user": "sly",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -687,7 +633,6 @@
     "id":4,
     "user": "sly",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
@@ -698,7 +643,6 @@
     "id":5,
     "user": "sly",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
@@ -709,7 +653,6 @@
     "id":6,
     "user": "sly",
 		"dsl": {
-			"id":5,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -720,7 +663,6 @@
     "id":7,
     "user": "sly",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low ] & 10min & always",
       "description": "After [ Lab.AirQuality.low ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
@@ -731,7 +673,6 @@
     "id":8,
     "user": "sly",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
       "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
@@ -742,7 +683,6 @@
     "id":9,
     "user": "sly",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
       "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
@@ -753,7 +693,6 @@
     "id":10,
     "user": "sly",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
       "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
@@ -764,7 +703,6 @@
 		"id":1,
 		"user": "zbx",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -775,7 +713,6 @@
     "id":2,
     "user": "zbx",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -786,7 +723,6 @@
     "id":3,
     "user": "zbx",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -797,7 +733,6 @@
     "id":4,
     "user": "zbx",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
@@ -808,7 +743,6 @@
     "id":5,
     "user": "zbx",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
@@ -819,7 +753,6 @@
     "id":6,
     "user": "zbx",
 		"dsl": {
-			"id":5,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -830,7 +763,6 @@
     "id":7,
     "user": "zbx",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
       "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
@@ -841,7 +773,6 @@
     "id":8,
     "user": "zbx",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
       "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
@@ -852,7 +783,6 @@
     "id":9,
     "user": "zbx",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
       "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
@@ -863,7 +793,6 @@
     "id":10,
     "user": "zbx",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Corridor.Speaker.on & Corridor.Speaker.off & 1min & always",
       "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.Speaker.off ] will [ always ] happen."
@@ -874,7 +803,6 @@
 		"id":1,
 		"user": "lyz",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -885,7 +813,6 @@
     "id":2,
     "user": "lyz",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -896,7 +823,6 @@
     "id":3,
     "user": "lyz",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -907,7 +833,6 @@
     "id":4,
     "user": "lyz",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
@@ -918,7 +843,6 @@
     "id":5,
     "user": "lyz",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
@@ -929,7 +853,6 @@
     "id":6,
     "user": "lyz",
 		"dsl": {
-			"id":5,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -940,7 +863,6 @@
     "id":7,
     "user": "lyz",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
       "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
@@ -951,7 +873,6 @@
     "id":8,
     "user": "lyz",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
       "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
@@ -962,7 +883,6 @@
     "id":9,
     "user": "lyz",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
       "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
@@ -973,7 +893,6 @@
     "id":10,
     "user": "lyz",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Corridor.Speaker.on & Corridor.Speaker.off & 1min & always",
       "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.Speaker.off ] will [ always ] happen."
@@ -984,7 +903,6 @@
 		"id":1,
 		"user": "wzm",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -995,7 +913,6 @@
     "id":2,
     "user": "wzm",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -1006,7 +923,6 @@
     "id":3,
     "user": "wzm",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -1017,7 +933,6 @@
     "id":4,
     "user": "wzm",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "When [ TeaRoom.MicrowaveOven.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -1028,7 +943,6 @@
     "id":5,
     "user": "wzm",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "When [ TeaRoom.WaterDispenser.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -1039,7 +953,6 @@
     "id":6,
     "user": "wzm",
 		"dsl": {
-			"id":5,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -1050,7 +963,6 @@
     "id":7,
     "user": "wzm",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
       "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
@@ -1061,7 +973,6 @@
     "id":8,
     "user": "wzm",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
       "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
@@ -1092,7 +1003,6 @@
 		"id":1,
 		"user": "sbk",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -1103,7 +1013,6 @@
     "id":2,
     "user": "sbk",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -1114,7 +1023,6 @@
     "id":3,
     "user": "sbk",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -1125,7 +1033,6 @@
     "id":4,
     "user": "sbk",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
@@ -1136,7 +1043,6 @@
     "id":5,
     "user": "sbk",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "When [ TeaRoom.WaterDispenser.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -1147,7 +1053,6 @@
     "id":6,
     "user": "sbk",
 		"dsl": {
-			"id":5,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -1158,7 +1063,6 @@
     "id":7,
     "user": "sbk",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
       "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
@@ -1169,7 +1073,6 @@
     "id":8,
     "user": "sbk",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
       "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
@@ -1200,7 +1103,6 @@
 		"id":1,
 		"user": "cqc",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -1211,7 +1113,6 @@
     "id":2,
     "user": "cqc",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -1222,7 +1123,6 @@
     "id":3,
     "user": "cqc",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -1233,7 +1133,6 @@
     "id":4,
     "user": "cqc",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
@@ -1244,7 +1143,6 @@
     "id":5,
     "user": "cqc",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "When [ TeaRoom.WaterDispenser.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -1255,7 +1153,6 @@
     "id":6,
     "user": "cqc",
 		"dsl": {
-			"id":5,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -1266,7 +1163,6 @@
     "id":7,
     "user": "cqc",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
       "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
@@ -1277,7 +1173,6 @@
     "id":8,
     "user": "cqc",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
       "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
@@ -1308,7 +1203,6 @@
 		"id":1,
 		"user": "syc",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -1319,7 +1213,6 @@
     "id":2,
     "user": "syc",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -1330,7 +1223,6 @@
     "id":3,
     "user": "syc",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -1341,7 +1233,6 @@
     "id":4,
     "user": "syc",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "When [ TeaRoom.MicrowaveOven.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -1352,7 +1243,6 @@
     "id":5,
     "user": "syc",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "When [ TeaRoom.WaterDispenser.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -1363,7 +1253,6 @@
     "id":6,
     "user": "syc",
 		"dsl": {
-			"id":5,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -1374,7 +1263,6 @@
     "id":7,
     "user": "syc",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
       "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
@@ -1385,7 +1273,6 @@
     "id":8,
     "user": "syc",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
       "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
@@ -1416,7 +1303,6 @@
 		"id":1,
 		"user": "bj",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -1427,7 +1313,6 @@
     "id":2,
     "user": "bj",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -1438,7 +1323,6 @@
     "id":3,
     "user": "bj",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -1449,7 +1333,6 @@
     "id":4,
     "user": "bj",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "When [ TeaRoom.MicrowaveOven.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -1460,7 +1343,6 @@
     "id":5,
     "user": "bj",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "When [ TeaRoom.WaterDispenser.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -1471,7 +1353,6 @@
     "id":6,
     "user": "bj",
 		"dsl": {
-			"id":5,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -1482,7 +1363,6 @@
     "id":7,
     "user": "bj",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
       "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
@@ -1493,7 +1373,6 @@
     "id":8,
     "user": "bj",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
       "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
@@ -1524,7 +1403,6 @@
 		"id":1,
 		"user": "dzy",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -1535,7 +1413,6 @@
     "id":2,
     "user": "dzy",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -1546,7 +1423,6 @@
     "id":3,
     "user": "dzy",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -1557,7 +1433,6 @@
     "id":4,
     "user": "dzy",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "When [ TeaRoom.MicrowaveOven.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -1568,7 +1443,6 @@
     "id":5,
     "user": "dzy",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "When [ TeaRoom.WaterDispenser.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -1579,7 +1453,6 @@
     "id":6,
     "user": "dzy",
 		"dsl": {
-			"id":5,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -1590,7 +1463,6 @@
     "id":7,
     "user": "dzy",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
       "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
@@ -1601,7 +1473,6 @@
     "id":8,
     "user": "dzy",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
       "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
@@ -1632,7 +1503,6 @@
 		"id":1,
 		"user": "dxy",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -1643,7 +1513,6 @@
     "id":2,
     "user": "dxy",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -1654,7 +1523,6 @@
     "id":3,
     "user": "dxy",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -1665,7 +1533,6 @@
     "id":4,
     "user": "dxy",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "When [ TeaRoom.MicrowaveOven.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -1676,7 +1543,6 @@
     "id":5,
     "user": "dxy",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "When [ TeaRoom.WaterDispenser.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -1687,7 +1553,6 @@
     "id":6,
     "user": "dxy",
 		"dsl": {
-			"id":5,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -1698,7 +1563,6 @@
     "id":7,
     "user": "dxy",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
       "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
@@ -1709,7 +1573,6 @@
     "id":8,
     "user": "dxy",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
       "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
@@ -1740,7 +1603,6 @@
 		"id":1,
 		"user": "ltr",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -1751,7 +1613,6 @@
     "id":2,
     "user": "ltr",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -1762,7 +1623,6 @@
     "id":3,
     "user": "ltr",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -1773,7 +1633,6 @@
     "id":4,
     "user": "ltr",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
@@ -1784,7 +1643,6 @@
     "id":5,
     "user": "ltr",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
@@ -1795,7 +1653,6 @@
     "id":6,
     "user": "ltr",
 		"dsl": {
-			"id":5,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -1806,7 +1663,6 @@
     "id":7,
     "user": "ltr",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
       "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
@@ -1817,7 +1673,6 @@
     "id":8,
     "user": "ltr",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
       "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
@@ -1828,7 +1683,6 @@
     "id":9,
     "user": "ltr",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
       "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
@@ -1839,7 +1693,6 @@
     "id":10,
     "user": "ltr",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Corridor.Speaker.on & Corridor.Speaker.off & 1min & always",
       "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.Speaker.off ] will [ always ] happen."
@@ -1850,7 +1703,6 @@
 		"id":1,
 		"user": "hd",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -1861,7 +1713,6 @@
     "id":2,
     "user": "hd",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -1872,7 +1723,6 @@
     "id":3,
     "user": "hd",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -1883,7 +1733,6 @@
     "id":4,
     "user": "hd",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
@@ -1894,7 +1743,6 @@
     "id":5,
     "user": "hd",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
@@ -1905,7 +1753,6 @@
     "id":6,
     "user": "hd",
 		"dsl": {
-			"id":5,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -1916,7 +1763,6 @@
     "id":7,
     "user": "hd",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
       "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
@@ -1927,7 +1773,6 @@
     "id":8,
     "user": "hd",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
       "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
@@ -1938,7 +1783,6 @@
     "id":9,
     "user": "hd",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
       "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
@@ -1949,7 +1793,6 @@
     "id":10,
     "user": "hd",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
       "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
@@ -1960,7 +1803,6 @@
 		"id":1,
 		"user": "cbl",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -1971,7 +1813,6 @@
     "id":2,
     "user": "cbl",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -1982,7 +1823,6 @@
     "id":3,
     "user": "cbl",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -1993,7 +1833,6 @@
     "id":4,
     "user": "cbl",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
@@ -2004,7 +1843,6 @@
     "id":5,
     "user": "cbl",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
@@ -2015,7 +1853,6 @@
     "id":6,
     "user": "cbl",
 		"dsl": {
-			"id":5,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -2026,7 +1863,6 @@
     "id":7,
     "user": "cbl",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
       "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
@@ -2037,7 +1873,6 @@
     "id":8,
     "user": "cbl",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
       "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
@@ -2048,7 +1883,6 @@
     "id":9,
     "user": "cbl",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
       "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
@@ -2059,7 +1893,6 @@
     "id":10,
     "user": "cbl",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Corridor.Speaker.on & Corridor.Speaker.off & 1min & always",
       "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.Speaker.off ] will [ always ] happen."
@@ -2070,7 +1903,6 @@
 		"id":1,
 		"user": "hyt",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -2081,7 +1913,6 @@
     "id":2,
     "user": "hyt",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -2092,7 +1923,6 @@
     "id":3,
     "user": "hyt",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -2103,7 +1933,6 @@
     "id":4,
     "user": "hyt",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "When [ TeaRoom.MicrowaveOven.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -2114,7 +1943,6 @@
     "id":5,
     "user": "hyt",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "When [ TeaRoom.WaterDispenser.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -2125,7 +1953,6 @@
     "id":6,
     "user": "hyt",
 		"dsl": {
-			"id":5,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -2136,7 +1963,6 @@
     "id":7,
     "user": "hyt",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
       "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
@@ -2147,7 +1973,6 @@
     "id":8,
     "user": "hyt",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
       "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
@@ -2178,7 +2003,6 @@
 		"id":1,
 		"user": "zsm",
 		"dsl": {
-			"id":1,
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
 			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
@@ -2189,7 +2013,6 @@
     "id":2,
     "user": "zsm",
 		"dsl": {
-			"id":2,
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
       "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
@@ -2200,7 +2023,6 @@
     "id":3,
     "user": "zsm",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
       "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
@@ -2211,7 +2033,6 @@
     "id":4,
     "user": "zsm",
 		"dsl": {
-			"id":3,
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
       "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
@@ -2222,7 +2043,6 @@
     "id":5,
     "user": "zsm",
 		"dsl": {
-			"id":4,
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
       "description": "When [ TeaRoom.WaterDispenser.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
@@ -2233,7 +2053,6 @@
     "id":6,
     "user": "zsm",
 		"dsl": {
-			"id":5,
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
       "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
@@ -2244,7 +2063,6 @@
     "id":7,
     "user": "zsm",
 		"dsl": {
-			"id":6,
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
       "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
@@ -2255,7 +2073,6 @@
     "id":8,
     "user": "zsm",
 		"dsl": {
-			"id":7,
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
       "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."

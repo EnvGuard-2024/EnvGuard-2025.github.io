@@ -1,0 +1,139 @@
+{
+    "BedroomTwo": {
+        "device": {
+            "Light": "0",
+            "AC": "0",
+            "Window": "0",
+            "Door": "0",
+            "Humidifier": "0",
+            "AirPurifier": "0",
+            "Heater": "1",
+            "Curtain": "1"
+        },
+        "state": {
+            "Temperature": "1",
+            "Brightness": "-1",
+            "Humidity": "-1",
+            "AirQuality": "0",
+            "HumanState": "1"
+        },
+        "HumanCount": 2
+    },
+    "Balcony": {
+        "device": {
+            "Light": "0",
+            "Window": "0",
+            "Door": "0",
+            "Curtain": "0",
+            "WashingMachine": "0"
+        },
+        "state": {
+            "Temperature": "0",
+            "Brightness": "0",
+            "Humidity": "0",
+            "AirQuality": "0",
+            "HumanState": "0"
+        },
+        "HumanCount": 0
+    },
+    "LivingRoom": {
+        "device": {
+            "AC": "0",
+            "AirPurifier": "0",
+            "Curtain": "1",
+            "Door": "0",
+            "Heater": "0",
+            "Humidifier": "0",
+            "Light": "1",
+            "Speaker": "0",
+            "Window": "0"
+        },
+        "state": {
+            "Temperature": "1",
+            "Brightness": "1",
+            "Humidity": "-1",
+            "AirQuality": "0",
+            "HumanState": "0"
+        },
+        "HumanCount": 0
+    },
+    "Kitchen": {
+        "device": {
+            "CookerHood": "0",
+            "Window": "0",
+            "WaterDispenser": "0",
+            "Door": "1",
+            "Light": "0",
+            "Curtain": "0",
+            "Fridge": "0"
+        },
+        "state": {
+            "Temperature": "0",
+            "Brightness": "0",
+            "Humidity": "0",
+            "AirQuality": "-1",
+            "HumanState": "0"
+        },
+        "HumanCount": 0
+    },
+    "Bathroom": {
+        "device": {
+            "Light": "0",
+            "Door": "0",
+            "TowelDryer": "1",
+            "WaterHeater": "0"
+        },
+        "state": {
+            "Temperature": "0",
+            "Brightness": "-1",
+            "Humidity": "0",
+            "AirQuality": "0",
+            "HumanState": "0"
+        },
+        "HumanCount": 0
+    },
+    "Cloakroom": {
+        "device": {
+            "Door": "0",
+            "Light": "0"
+        },
+        "state": {
+            "Temperature": "0",
+            "Brightness": "-1",
+            "Humidity": "0",
+            "AirQuality": "0",
+            "HumanState": "0"
+        },
+        "HumanCount": 0
+    },
+    "Context": {
+        "device": {},
+        "state": {
+            "Temperature": "-1",
+            "Brightness": "-1",
+            "Humidity": "0",
+            "AirQuality": "0",
+            "Weather": "cloudy"
+        }
+    },
+    "BedroomOne": {
+        "device": {
+            "AC": "0",
+            "Window": "0",
+            "Door": "0",
+            "Humidifier": "0",
+            "AirPurifier": "0",
+            "Heater": "0",
+            "Curtain": "1",
+            "Light": "0"
+        },
+        "state": {
+            "Temperature": "-1",
+            "Brightness": "-1",
+            "Humidity": "0",
+            "AirQuality": "0",
+            "HumanState": "1"
+        },
+        "HumanCount": 1
+    }
+}
