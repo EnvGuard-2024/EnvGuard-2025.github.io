@@ -3,16 +3,20 @@
 
 ## Dataset
 We collected data in each of the two real-world WoT environments and built a dataset to evaluate EnvGuard. The dataset is publicly available. 
+
 The dataset for the office environment is as follows:
 ([Office Dataset](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/tree/master/office-dataset))
+
 The dataset for the home environment is as follows:
-([Office Dataset](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/tree/master/home-dataset))
+([Home Dataset](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/tree/master/home-dataset))
 
 We conducted a 14-day continuous data collection in the smart office and smart home, recording user activities, application executions and environment changes by capturing every event and action from the initial environment state. 
-The spatial layout and the deployed devices of the smart office are illustrated as follows:
-<div align=center><img width="500" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/SmartOfficeEnv.png"/></div>
-The spatial layout and the deployed devices of the smart home are illustrated as follows:
-<div align=center><img width="500" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/SmartHomeEnv.png"/></div>
+
+The spatial layout and the deployed devices of the smart office and the smart home are illustrated as follows:
+<div align=center>
+<img width="400" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/SmartOfficeEnv.png"/>
+<img width="400" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/SmartHomeEnv.png"/>
+</div>
 
 <!-- There are 21 students working and studying in the laboratory, and 5 types of WoT applications are deployed to provide convenience for daily office work. Details of the applications are described below:
 <div align=center><img width="400" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/application.png"/></div> -->
@@ -33,12 +37,15 @@ To understand the user preference for resolution actions, we conduct an online u
 
 ## Environment Representations
 The environment representation of the smart laboratory WoT environment in [neo4j](http://47.101.169.122:7474/browser/)(bolt port: `7687`, username: `neo4j`, password: `12345678`)
+
 The environment representation of the smart home WoT environment in [neo4j](http://47.101.169.122:7475/browser/)(bolt port: `7688`, username: `neo4j`, password: `12345678`)
 
 ## User Study 2
 We invited 21 students (including 7 females) as participants who were familiar with the office and home environment to specify ten environment properties for each of the two environments through the property configuration tool. These students majored in software engineering with different programming experiences. Among the participants, eight of them have experience using WoT platforms and developing WoT applications, while the others do not.
 The constructed properties of the office environment are as follows:
+
 ([User Study 2](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/user-study/Office_UserStudyTwo_ConstructedProperties.json))
+
 The constructed properties of the home environment are as follows:
 ([User Study 2](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/blob/master/user-study/Home_UserStudyTwo_ConstructedProperties.json))
 
