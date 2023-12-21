@@ -165,7 +165,7 @@
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
-      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
+      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
     },
 		"app": "Low air quality"
   },
@@ -265,7 +265,7 @@
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
-      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
+      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
     },
 		"app": "Low air quality"
   },
@@ -365,7 +365,7 @@
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
-      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
+      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
     },
 		"app": "Low air quality"
   },
@@ -465,7 +465,7 @@
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low ] & 10min & always",
-      "description": "After [ Lab.AirQuality.low ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
+      "description": "After [ Lab.AirQuality.low ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
     },
 		"app": "Low air quality"
   },
@@ -565,7 +565,7 @@
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
-      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
+      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
     },
 		"app": "Low air quality"
   },
@@ -665,7 +665,7 @@
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low ] & 10min & always",
-      "description": "After [ Lab.AirQuality.low ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
+      "description": "After [ Lab.AirQuality.low ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
     },
 		"app": "Low air quality"
   },
@@ -765,7 +765,7 @@
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
-      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
+      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
     },
 		"app": "Low air quality"
   },
@@ -865,7 +865,7 @@
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
-      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
+      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
     },
 		"app": "Low air quality"
   },
@@ -965,7 +965,7 @@
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
-      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
+      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
     },
 		"app": "Low air quality"
   },
@@ -1165,7 +1165,7 @@
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
-      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
+      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
     },
 		"app": "Low air quality"
   },
@@ -1265,7 +1265,7 @@
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
-      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
+      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
     },
 		"app": "Low air quality"
   },
@@ -1365,7 +1365,7 @@
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
-      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
+      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
     },
 		"app": "Low air quality"
   },
@@ -1465,7 +1465,7 @@
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
-      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
+      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
     },
 		"app": "Low air quality"
   },
@@ -1565,7 +1565,7 @@
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
-      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
+      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
     },
 		"app": "Low air quality"
   },
@@ -1665,7 +1665,7 @@
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
-      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
+      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
     },
 		"app": "Low air quality"
   },
@@ -1765,7 +1765,7 @@
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
-      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
+      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
     },
 		"app": "Low air quality"
   },
@@ -1865,7 +1865,7 @@
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
-      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
+      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
     },
 		"app": "Low air quality"
   },
@@ -1965,7 +1965,7 @@
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
-      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
+      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
     },
 		"app": "Low air quality"
   },
@@ -2065,7 +2065,7 @@
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
-      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 1min ], [ Lab.air_quality_up ] will [ always ] happen."
+      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
     },
 		"app": "Low air quality"
   },
