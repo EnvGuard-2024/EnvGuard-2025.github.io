@@ -26,7 +26,7 @@ Through interviews with staff in the environment, we obtained ten expected safet
 <img width="46.5%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/home_propertys.png"/>
 </div>
 
-The dataset includes the initial state of the environment and devices, and the state changes during the following 14 days which are recorded in the formats: {Name, Type, Location, Object, Timestamp, Payload Data, Source, Property Violation, Resolving Action}. Name indicates the name of device service that provides information about changes in the state of the environment/device. Type represents the type (action or event) of the device service. Location indicates the deployment location of the device.  Object denotes the state name of the target device/environment object being updated by the device service. Timestamp records  the time when the state change occurs. Payload Data records the current state value. Property Violation indicates the ID of violated environment properties caused by the device service. Resolving Action indicates the generated resolving strategy of the violation.
+The dataset includes the initial state of the environment and devices, and the state changes during the following 14 days which are recorded in the formats: {Name, Type, Location, Object, Timestamp, Payload Data, Source, Property Violation, Resolving Action}. Name indicates the name of device service that provides information about changes in the state of the environment/device. Type represents the type (action or event) of the device service. Location indicates the deployment location of the device. Object denotes the state name of the target device/environment object being updated by the device service. Timestamp records  the time when the state change occurs. Source indicates that the data record is caused by an environment change, an application call, or an offline user operation. Payload Data records the current state value. Property Violation indicates the ID of violated environment properties caused by the device service. Resolving Action indicates the generated resolving strategy of the violation.
 
 ## GUI Tool
 The visualized environment property description tool.([GUI](http://47.101.169.122:9033/))
@@ -38,10 +38,10 @@ To understand the user preference for resolution actions, we conduct an online u
 
 ## Environment Representations
 <div>
-The environment representation of the smart laboratory WoT environment in [neo4j](http://47.101.169.122:7474/browser/)(bolt port: `7687`, username: `neo4j`, password: `12345678`)
+The environment representation of the smart laboratory WoT environment in [neo4j](http://47.101.169.122:7474/browser/) (bolt port: `7687`, username: `neo4j`, password: `12345678`)
 </div>
 <div>
-The environment representation of the smart home WoT environment in [neo4j](http://47.101.169.122:7475/browser/)(bolt port: `7688`, username: `neo4j`, password: `12345678`)
+The environment representation of the smart home WoT environment in [neo4j](http://47.101.169.122:7475/browser/) (bolt port: `7688`, username: `neo4j`, password: `12345678`)
 </div>
 
 ## User Study 2
