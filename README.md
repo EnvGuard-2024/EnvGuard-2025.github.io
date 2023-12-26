@@ -12,8 +12,8 @@ The dataset for the home environment is as follows:
 We conducted a 14-day continuous data collection in the smart office and smart home, recording user activities, application executions and environment changes by capturing every event and action from the initial environment state. 
 The spatial layout and the deployed devices of the smart office and the smart home are illustrated as follows:
 <div align=center>
-<img width="43.5%" style="margin-right:2%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/SmartOfficeEnv.png"/>
-<img width="52%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/SmartHomeEnv.png"/>
+<img width="50%" style="margin-right:2%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/SmartOfficeEnv.png"/>
+<img width="47%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/SmartHomeEnv.png"/>
 </div>
 </p>
 
@@ -22,8 +22,8 @@ The spatial layout and the deployed devices of the smart office and the smart ho
 
 Through interviews with staff in the environment, we obtained ten expected safety and security property requirements from interviews with individuals who work or live there daily for each environment. We invited six experts with WoT development experience to independently analyze and label the events and actions that violated the properties (Fleiss Kappa = 0.68) and resolve discrepancies through discussion to obtain the ground truth. The properties are as follows:
 <div align=center>
-<img width="47%" style="margin-right:2%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/office_propertys.png"/>
-<img width="46.5%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/home_propertys.png"/>
+<img width="46%" style="margin-right:2%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/office_propertys.png"/>
+<img width="46.3%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/home_propertys.png"/>
 </div>
 
 The dataset includes the initial state of the environment and devices, and the state changes during the following 14 days which are recorded in the formats: {Name, Type, Location, Object, Timestamp, Payload Data, Source, Property Violation, Resolving Action}. Name indicates the name of device service that provides information about changes in the state of the environment/device. Type represents the type (action or event) of the device service. Location indicates the deployment location of the device. Object denotes the state name of the target device/environment object being updated by the device service. Timestamp records  the time when the state change occurs. Source indicates that the data record is caused by an environment change, an application call, or an offline user operation. Payload Data records the current state value. Property Violation indicates the ID of violated environment properties caused by the device service. Resolving Action indicates the generated resolving strategy of the violation.
@@ -38,7 +38,7 @@ To understand the user preference for resolution actions, we conduct an online u
 
 ## Environment Representations
 <div>
-The environment representation of the smart laboratory WoT environment in [neo4j](http://47.101.169.122:7474/browser/) (bolt port: `7687`, username: `neo4j`, password: `12345678`)
+The environment representation of the smart office WoT environment in [neo4j](http://47.101.169.122:7474/browser/) (bolt port: `7687`, username: `neo4j`, password: `12345678`)
 </div>
 <div>
 The environment representation of the smart home WoT environment in [neo4j](http://47.101.169.122:7475/browser/) (bolt port: `7688`, username: `neo4j`, password: `12345678`)
