@@ -20,7 +20,7 @@ The spatial layout and the deployed devices of the smart office and the smart ho
 <!-- There are 21 students working and studying in the laboratory, and 5 types of WoT applications are deployed to provide convenience for daily office work. Details of the applications are described below:
 <div align=center><img width="400" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/application.png"/></div> -->
 
-Through interviews with staff in the environment, we obtained ten expected safety and security property requirements from interviews with individuals who work or live there daily for each environment, including ten spatial state properties and ten temporal trace properties, and we invited six experts with WoT development experience to independently analyze and label the events and actions that violated the properties (Fleiss Kappa = 0.68) and resolve discrepancies through discussion to obtain the ground truth. The properties are as follows:
+Through interviews with staff in the environment, we obtained ten expected safety and security property requirements from interviews with individuals who work or live there daily for each environment. We invited six experts with WoT development experience to independently analyze and label the events and actions that violated the properties (Fleiss Kappa = 0.68) and resolve discrepancies through discussion to obtain the ground truth. The properties are as follows:
 <div align=center>
 <img width="47%" style="margin-right:2%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/office_propertys.png"/>
 <img width="46.5%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/home_propertys.png"/>
