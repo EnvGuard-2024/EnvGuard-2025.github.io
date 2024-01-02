@@ -37,12 +37,10 @@ To understand the user preference for resolution actions, we conduct an online u
 
 
 ## Environment Representations
-<div>
-The environment representation of the smart office WoT environment in ([neo4j](http://47.101.169.122:7474/browser/)) (bolt port: `7687`, username: `neo4j`, password: `12345678`)
-</div>
-<div>
-The environment representation of the smart home WoT environment in ([neo4j](http://47.101.169.122:7475/browser/)) (bolt port: `7688`, username: `neo4j`, password: `12345678`)
-</div>
+The environment representation of the smart office WoT environment in [neo4j](http://47.101.169.122:7474/browser/)  (bolt port: `7687`, username: `neo4j`, password: `12345678`)
+
+The environment representation of the smart home WoT environment in [neo4j](http://47.101.169.122:7475/browser/)  (bolt port: `7688`, username: `neo4j`, password: `12345678`)
+
 
 ## User Study 2
 We invited 21 students (including 7 females) as participants who were familiar with the office and home environment to specify ten environment properties for each of the two environments through the property configuration tool. These students majored in software engineering with different programming experiences. Among the participants, eight of them have experience using WoT platforms and developing WoT applications, while the others do not.  
