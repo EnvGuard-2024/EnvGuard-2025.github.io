@@ -32,6 +32,16 @@ Through interviews with staff in the environment, we obtained ten expected safet
 <img width="46.3%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/home_propertys.png"/>
 </div>
 
+<<<<<<< HEAD
+=======
+
+We deployed 5 types of WoT applications in office and home for our daily office work and home life. The applications are as follows:
+<div align=center>
+<img width="42%" style="margin-right:2%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/office_application.png"/>
+<img width="53%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/home_application.png"/>
+</div>
+
+>>>>>>> 653ac5edc313680a78793fb5ecf04a3a60ef4256
 The dataset includes the initial state of the environment and devices, and the state changes during the following 14 days which are recorded in the formats: {Name, Type, Location, Object, Timestamp, Payload Data, Source, Property Violation, Resolving Action}. Name indicates the name of device service that provides information about changes in the state of the environment/device. Type represents the type (action or event) of the device service. Location indicates the deployment location of the device. Object denotes the state name of the target device/environment object being updated by the device service. Timestamp records  the time when the state change occurs. Source indicates that the data record is caused by an environment change, an application call, or an offline user operation. Payload Data records the current state value. Property Violation indicates the ID of violated environment properties caused by the device service. Resolving Action indicates the generated resolving strategy of the violation.
  
 ## GUI Tool
