@@ -22,7 +22,7 @@ The spatial layout and the deployed devices of the smart office and the smart ho
  
 We deployed 5 types of WoT applications in office and home for our daily office work and home life. The applications are as follows:
 <div align=center> 
-<img width="42.2%" style="margin-right:2%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/office_application.png"/>
+<img width="44.6%" style="margin-right:2%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/office_application.png"/>
 <img width="48%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/home_application.png"/> 
 </div>
 
