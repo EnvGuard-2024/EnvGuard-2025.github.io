@@ -26,6 +26,13 @@ Through interviews with staff in the environment, we obtained ten expected safet
 <img width="46.3%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/home_propertys.png"/>
 </div>
 
+
+We deployed 5 types of WoT applications in office and home for our daily office work and home life. The applications are as follows:
+<div align=center>
+<img width="46%" style="margin-right:2%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/office_application.png"/>
+<img width="46.3%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/home_application.png"/>
+</div>
+
 The dataset includes the initial state of the environment and devices, and the state changes during the following 14 days which are recorded in the formats: {Name, Type, Location, Object, Timestamp, Payload Data, Source, Property Violation, Resolving Action}. Name indicates the name of device service that provides information about changes in the state of the environment/device. Type represents the type (action or event) of the device service. Location indicates the deployment location of the device. Object denotes the state name of the target device/environment object being updated by the device service. Timestamp records  the time when the state change occurs. Source indicates that the data record is caused by an environment change, an application call, or an offline user operation. Payload Data records the current state value. Property Violation indicates the ID of violated environment properties caused by the device service. Resolving Action indicates the generated resolving strategy of the violation.
 
 ## GUI Tool
@@ -37,12 +44,10 @@ To understand the user preference for resolution actions, we conduct an online u
 
 
 ## Environment Representations
-<div>
-The environment representation of the smart office WoT environment in [neo4j](http://47.101.169.122:7474/browser/) (bolt port: `7687`, username: `neo4j`, password: `12345678`)
-</div>
-<div>
-The environment representation of the smart home WoT environment in [neo4j](http://47.101.169.122:7475/browser/) (bolt port: `7688`, username: `neo4j`, password: `12345678`)
-</div>
+The environment representation of the smart office WoT environment in [neo4j](http://47.101.169.122:7474/browser/)  (bolt port: `7687`, username: `neo4j`, password: `12345678`)
+
+The environment representation of the smart home WoT environment in [neo4j](http://47.101.169.122:7475/browser/)  (bolt port: `7688`, username: `neo4j`, password: `12345678`)
+
 
 ## User Study 2
 We invited 21 students (including 7 females) as participants who were familiar with the office and home environment to specify ten environment properties for each of the two environments through the property configuration tool. These students majored in software engineering with different programming experiences. Among the participants, eight of them have experience using WoT platforms and developing WoT applications, while the others do not.  
