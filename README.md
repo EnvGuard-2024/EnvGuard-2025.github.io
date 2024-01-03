@@ -8,7 +8,7 @@ The dataset for the office environment is as follows:
 The dataset for the home environment is as follows:
 ([Home Dataset](https://github.com/EnvGuard-2023/EnvGuard-2023.github.io/tree/master/home-dataset))
 
-<p>
+<p> 
 We conducted a 14-day continuous data collection in the smart office and smart home, recording user activities, application executions and environment changes by capturing every event and action from the initial environment state. 
 The spatial layout and the deployed devices of the smart office and the smart home are illustrated as follows:
 <div align=center>
@@ -19,11 +19,11 @@ The spatial layout and the deployed devices of the smart office and the smart ho
 
 <!-- There are 21 students working and studying in the laboratory, and 5 types of WoT applications are deployed to provide convenience for daily office work. Details of the applications are described below:
 <div align=center><img width="400" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/application.png"/></div> -->
-
+ 
 We deployed 5 types of WoT applications in office and home for our daily office work and home life. The applications are as follows:
-<div align=center>
-<img width="42%" style="margin-right:2%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/office_application.png"/>
-<img width="53%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/home_application.png"/>
+<div align=center> 
+<img width="42.2%" style="margin-right:2%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/office_application.png"/>
+<img width="48%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/home_application.png"/> 
 </div>
 
 Through interviews with staff in the environment, we obtained ten expected safety and security property requirements from interviews with individuals who work or live there daily for each environment. We invited six experts with WoT development experience to independently analyze and label the events and actions that violated the properties (Fleiss Kappa = 0.68) and resolve discrepancies through discussion to obtain the ground truth. The properties are as follows:
@@ -32,16 +32,6 @@ Through interviews with staff in the environment, we obtained ten expected safet
 <img width="46.3%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/home_propertys.png"/>
 </div>
 
-<<<<<<< HEAD
-=======
-
-We deployed 5 types of WoT applications in office and home for our daily office work and home life. The applications are as follows:
-<div align=center>
-<img width="42%" style="margin-right:2%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/office_application.png"/>
-<img width="53%" src="https://raw.githubusercontent.com/EnvGuard-2023/EnvGuard-2023.github.io/master/images/home_application.png"/>
-</div>
-
->>>>>>> 653ac5edc313680a78793fb5ecf04a3a60ef4256
 The dataset includes the initial state of the environment and devices, and the state changes during the following 14 days which are recorded in the formats: {Name, Type, Location, Object, Timestamp, Payload Data, Source, Property Violation, Resolving Action}. Name indicates the name of device service that provides information about changes in the state of the environment/device. Type represents the type (action or event) of the device service. Location indicates the deployment location of the device. Object denotes the state name of the target device/environment object being updated by the device service. Timestamp records  the time when the state change occurs. Source indicates that the data record is caused by an environment change, an application call, or an offline user operation. Payload Data records the current state value. Property Violation indicates the ID of violated environment properties caused by the device service. Resolving Action indicates the generated resolving strategy of the violation.
  
 ## GUI Tool
