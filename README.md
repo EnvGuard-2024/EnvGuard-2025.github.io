@@ -49,7 +49,7 @@ The environment representation of the smart home WoT environment in [neo4j](http
 
 
 ## User Study 2
-We invited 47 students (including 17 females) as participants who were familiar with the office and home environment to specify ten environment properties for each of the two environments through the property configuration tool. These students majored in software engineering with different programming experiences. Among the participants, eight of them have experience using WoT platforms and developing WoT applications, while the others do not.  
+We invited 47 students (including 17 females) as participants with a variety of majors, including software engineering (21), biology (12), chemistry (9), and law (5). Among the participants, eighteen of them have experience using WoT platforms and developing WoT applications, while the others do not.  
 The constructed properties of the office environment are as follows:
 ([Office-User Study 2](https://github.com/EnvGuard-2024/EnvGuard-2024.github.io/blob/master/user-study/Office_UserStudyTwo_ConstructedProperties.json))  
 The constructed properties of the home environment are as follows:
