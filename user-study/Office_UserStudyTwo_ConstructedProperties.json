@@ -1,7 +1,6 @@
 {
 	"0": {
 		"id":1,
-		"user": "hk",
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -11,7 +10,6 @@
 	},
 	"1": {
     "id":2,
-    "user": "hk",
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -21,7 +19,6 @@
   },
   "2": {
     "id":3,
-    "user": "hk",
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -31,7 +28,6 @@
   },
   "3": {
     "id":4,
-    "user": "hk",
 		"dsl": {
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -41,7 +37,6 @@
   },
   "4": {
     "id":5,
-    "user": "hk",
 		"dsl": {
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -51,7 +46,6 @@
   },
   "5": {
     "id":6,
-    "user": "hk",
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -61,7 +55,6 @@
   },
   "6": {
     "id":7,
-    "user": "hk",
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
@@ -71,7 +64,6 @@
   },
   "7": {
     "id":8,
-    "user": "hk",
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -81,7 +73,6 @@
   },
   "8": {
     "id":9,
-    "user": "hk",
 		"dsl": {
 			"template": "event-state-time",
       "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
@@ -91,7 +82,6 @@
   },
   "9": {
     "id":10,
-    "user": "hk",
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
@@ -101,7 +91,7 @@
   },
   "10": {
 		"id":1,
-		"user": "ysj",
+		
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -111,7 +101,7 @@
 	},
 	"11": {
     "id":2,
-    "user": "ysj",
+    
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -121,7 +111,7 @@
   },
   "12": {
     "id":3,
-    "user": "ysj",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -131,7 +121,7 @@
   },
   "13": {
     "id":4,
-    "user": "ysj",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -141,7 +131,7 @@
   },
   "14": {
     "id":5,
-    "user": "ysj",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -151,7 +141,7 @@
   },
   "15": {
     "id":6,
-    "user": "ysj",
+    
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -161,7 +151,7 @@
   },
   "16": {
     "id":7,
-    "user": "ysj",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
@@ -171,7 +161,7 @@
   },
   "17": {
     "id":8,
-    "user": "ysj",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -181,7 +171,7 @@
   },
   "18": {
     "id":9,
-    "user": "ysj",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
@@ -191,7 +181,7 @@
   },
   "19": {
     "id":10,
-    "user": "ysj",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Corridor.Speaker.on & Corridor.Speaker.off & 1min & always",
@@ -201,7 +191,7 @@
   },
   "20": {
 		"id":1,
-		"user": "hmm",
+		
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -211,7 +201,7 @@
 	},
 	"21": {
     "id":2,
-    "user": "hmm",
+    
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -221,7 +211,7 @@
   },
   "22": {
     "id":3,
-    "user": "hmm",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -231,7 +221,7 @@
   },
   "23": {
     "id":4,
-    "user": "hmm",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -241,7 +231,7 @@
   },
   "24": {
     "id":5,
-    "user": "hmm",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -251,7 +241,7 @@
   },
   "25": {
     "id":6,
-    "user": "hmm",
+    
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -261,7 +251,7 @@
   },
   "26": {
     "id":7,
-    "user": "hmm",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
@@ -271,7 +261,7 @@
   },
   "27": {
     "id":8,
-    "user": "hmm",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -281,7 +271,7 @@
   },
   "28": {
     "id":9,
-    "user": "hmm",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "TeaRoom.WaterDispenser.on & < & 2min",
@@ -291,7 +281,7 @@
   },
   "29": {
     "id":10,
-    "user": "hmm",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "Corridor.Speaker.on & < & 1min",
@@ -301,7 +291,7 @@
   },
   "30": {
 		"id":1,
-		"user": "db",
+		
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -311,7 +301,7 @@
 	},
 	"31": {
     "id":2,
-    "user": "db",
+    
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -321,7 +311,7 @@
   },
   "32": {
     "id":3,
-    "user": "db",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -331,7 +321,7 @@
   },
   "33": {
     "id":4,
-    "user": "db",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -341,7 +331,7 @@
   },
   "34": {
     "id":5,
-    "user": "db",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -351,7 +341,7 @@
   },
   "35": {
     "id":6,
-    "user": "db",
+    
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -361,7 +351,7 @@
   },
   "36": {
     "id":7,
-    "user": "db",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
@@ -371,7 +361,7 @@
   },
   "37": {
     "id":8,
-    "user": "db",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -381,7 +371,7 @@
   },
   "38": {
     "id":9,
-    "user": "db",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "TeaRoom.WaterDispenser.on & < & 2min",
@@ -391,7 +381,7 @@
   },
   "39": {
     "id":10,
-    "user": "db",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "Corridor.Speaker.on & < & 1min",
@@ -401,7 +391,7 @@
   },
   "40": {
 		"id":1,
-		"user": "lyq",
+		
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -411,7 +401,7 @@
 	},
 	"41": {
     "id":2,
-    "user": "lyq",
+    
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -421,7 +411,7 @@
   },
   "42": {
     "id":3,
-    "user": "lyq",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -431,7 +421,7 @@
   },
   "43": {
     "id":4,
-    "user": "lyq",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -441,7 +431,7 @@
   },
   "44": {
     "id":5,
-    "user": "lyq",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -451,7 +441,7 @@
   },
   "45": {
     "id":6,
-    "user": "lyq",
+    
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -461,7 +451,7 @@
   },
   "46": {
     "id":7,
-    "user": "lyq",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low ] & 10min & always",
@@ -471,7 +461,7 @@
   },
   "47": {
     "id":8,
-    "user": "lyq",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -481,7 +471,7 @@
   },
   "48": {
     "id":9,
-    "user": "lyq",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "TeaRoom.WaterDispenser.on & < & 2min",
@@ -491,7 +481,7 @@
   },
   "49": {
     "id":10,
-    "user": "lyq",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "Corridor.Speaker.on & < & 1min",
@@ -501,7 +491,7 @@
   },
   "50": {
 		"id":1,
-		"user": "rjl",
+		
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -511,7 +501,7 @@
 	},
 	"51": {
     "id":2,
-    "user": "rjl",
+    
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -521,7 +511,7 @@
   },
   "52": {
     "id":3,
-    "user": "rjl",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -531,7 +521,7 @@
   },
   "53": {
     "id":4,
-    "user": "rjl",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -541,7 +531,7 @@
   },
   "54": {
     "id":5,
-    "user": "rjl",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -551,7 +541,7 @@
   },
   "55": {
     "id":6,
-    "user": "rjl",
+    
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -561,7 +551,7 @@
   },
   "56": {
     "id":7,
-    "user": "rjl",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
@@ -571,7 +561,7 @@
   },
   "57": {
     "id":8,
-    "user": "rjl",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -581,7 +571,7 @@
   },
   "58": {
     "id":9,
-    "user": "rjl",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "TeaRoom.WaterDispenser.on & < & 2min",
@@ -591,7 +581,7 @@
   },
   "59": {
     "id":10,
-    "user": "rjl",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "Corridor.Speaker.on & < & 1min",
@@ -601,7 +591,7 @@
   },
   "60": {
 		"id":1,
-		"user": "sly",
+		
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -611,7 +601,7 @@
 	},
 	"61": {
     "id":2,
-    "user": "sly",
+    
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -621,7 +611,7 @@
   },
   "62": {
     "id":3,
-    "user": "sly",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -631,7 +621,7 @@
   },
   "63": {
     "id":4,
-    "user": "sly",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -641,7 +631,7 @@
   },
   "64": {
     "id":5,
-    "user": "sly",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -651,7 +641,7 @@
   },
   "65": {
     "id":6,
-    "user": "sly",
+    
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -661,7 +651,7 @@
   },
   "66": {
     "id":7,
-    "user": "sly",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low ] & 10min & always",
@@ -671,7 +661,7 @@
   },
   "67": {
     "id":8,
-    "user": "sly",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -681,7 +671,7 @@
   },
   "68": {
     "id":9,
-    "user": "sly",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
@@ -691,7 +681,7 @@
   },
   "69": {
     "id":10,
-    "user": "sly",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
@@ -701,7 +691,7 @@
   },
   "70": {
 		"id":1,
-		"user": "zbx",
+		
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -711,7 +701,7 @@
 	},
 	"71": {
     "id":2,
-    "user": "zbx",
+    
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -721,7 +711,7 @@
   },
   "72": {
     "id":3,
-    "user": "zbx",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -731,7 +721,7 @@
   },
   "73": {
     "id":4,
-    "user": "zbx",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -741,7 +731,7 @@
   },
   "74": {
     "id":5,
-    "user": "zbx",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -751,7 +741,7 @@
   },
   "75": {
     "id":6,
-    "user": "zbx",
+    
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -761,7 +751,7 @@
   },
   "76": {
     "id":7,
-    "user": "zbx",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
@@ -771,7 +761,7 @@
   },
   "77": {
     "id":8,
-    "user": "zbx",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -781,7 +771,7 @@
   },
   "78": {
     "id":9,
-    "user": "zbx",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
@@ -791,7 +781,7 @@
   },
   "79": {
     "id":10,
-    "user": "zbx",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Corridor.Speaker.on & Corridor.Speaker.off & 1min & always",
@@ -801,7 +791,7 @@
   },
   "80": {
 		"id":1,
-		"user": "lyz",
+		
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -811,7 +801,7 @@
 	},
 	"81": {
     "id":2,
-    "user": "lyz",
+    
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -821,7 +811,7 @@
   },
   "82": {
     "id":3,
-    "user": "lyz",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -831,7 +821,7 @@
   },
   "83": {
     "id":4,
-    "user": "lyz",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -841,7 +831,7 @@
   },
   "84": {
     "id":5,
-    "user": "lyz",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -851,7 +841,7 @@
   },
   "85": {
     "id":6,
-    "user": "lyz",
+    
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -861,7 +851,7 @@
   },
   "86": {
     "id":7,
-    "user": "lyz",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
@@ -871,7 +861,7 @@
   },
   "87": {
     "id":8,
-    "user": "lyz",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -881,7 +871,7 @@
   },
   "88": {
     "id":9,
-    "user": "lyz",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
@@ -891,7 +881,7 @@
   },
   "89": {
     "id":10,
-    "user": "lyz",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Corridor.Speaker.on & Corridor.Speaker.off & 1min & always",
@@ -901,7 +891,7 @@
   },
   "90": {
 		"id":1,
-		"user": "wzm",
+		
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -911,7 +901,7 @@
 	},
 	"91": {
     "id":2,
-    "user": "wzm",
+    
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -921,7 +911,7 @@
   },
   "92": {
     "id":3,
-    "user": "wzm",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -931,7 +921,7 @@
   },
   "93": {
     "id":4,
-    "user": "wzm",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -941,7 +931,7 @@
   },
   "94": {
     "id":5,
-    "user": "wzm",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -951,7 +941,7 @@
   },
   "95": {
     "id":6,
-    "user": "wzm",
+    
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -961,7 +951,7 @@
   },
   "96": {
     "id":7,
-    "user": "wzm",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
@@ -971,7 +961,7 @@
   },
   "97": {
     "id":8,
-    "user": "wzm",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -981,7 +971,7 @@
   },
   "98": {
     "id":9,
-    "user": "wzm",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "TeaRoom.WaterDispenser.on & < & 2min",
@@ -991,7 +981,7 @@
   },
   "99": {
     "id":10,
-    "user": "wzm",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "Corridor.Speaker.on & < & 1min",
@@ -1001,7 +991,7 @@
   },
   "100": {
 		"id":1,
-		"user": "sbk",
+		
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -1011,7 +1001,7 @@
 	},
 	"101": {
     "id":2,
-    "user": "sbk",
+    
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -1021,7 +1011,7 @@
   },
   "102": {
     "id":3,
-    "user": "sbk",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -1031,7 +1021,7 @@
   },
   "103": {
     "id":4,
-    "user": "sbk",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -1041,7 +1031,7 @@
   },
   "104": {
     "id":5,
-    "user": "sbk",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -1051,7 +1041,7 @@
   },
   "105": {
     "id":6,
-    "user": "sbk",
+    
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -1061,7 +1051,7 @@
   },
   "106": {
     "id":7,
-    "user": "sbk",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
@@ -1071,7 +1061,7 @@
   },
   "107": {
     "id":8,
-    "user": "sbk",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -1081,7 +1071,7 @@
   },
   "108": {
     "id":9,
-    "user": "sbk",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "TeaRoom.WaterDispenser.on & < & 2min",
@@ -1091,7 +1081,7 @@
   },
   "109": {
     "id":10,
-    "user": "sbk",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "Corridor.Speaker.on & < & 1min",
@@ -1101,7 +1091,7 @@
   },
   "110": {
 		"id":1,
-		"user": "cqc",
+		
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -1111,7 +1101,7 @@
 	},
 	"111": {
     "id":2,
-    "user": "cqc",
+    
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -1121,7 +1111,7 @@
   },
   "112": {
     "id":3,
-    "user": "cqc",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -1131,7 +1121,7 @@
   },
   "113": {
     "id":4,
-    "user": "cqc",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -1141,7 +1131,7 @@
   },
   "114": {
     "id":5,
-    "user": "cqc",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -1151,7 +1141,7 @@
   },
   "115": {
     "id":6,
-    "user": "cqc",
+    
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -1161,7 +1151,7 @@
   },
   "116": {
     "id":7,
-    "user": "cqc",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
@@ -1171,7 +1161,7 @@
   },
   "117": {
     "id":8,
-    "user": "cqc",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -1181,7 +1171,7 @@
   },
   "118": {
     "id":9,
-    "user": "cqc",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "TeaRoom.WaterDispenser.on & < & 2min",
@@ -1191,7 +1181,7 @@
   },
   "119": {
     "id":10,
-    "user": "cqc",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "Corridor.Speaker.on & < & 1min",
@@ -1201,7 +1191,7 @@
   },
   "120": {
 		"id":1,
-		"user": "syc",
+		
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -1211,7 +1201,7 @@
 	},
 	"121": {
     "id":2,
-    "user": "syc",
+    
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -1221,7 +1211,7 @@
   },
   "122": {
     "id":3,
-    "user": "syc",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -1231,7 +1221,7 @@
   },
   "123": {
     "id":4,
-    "user": "syc",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -1241,7 +1231,7 @@
   },
   "124": {
     "id":5,
-    "user": "syc",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -1251,7 +1241,7 @@
   },
   "125": {
     "id":6,
-    "user": "syc",
+    
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -1261,7 +1251,7 @@
   },
   "126": {
     "id":7,
-    "user": "syc",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
@@ -1271,7 +1261,7 @@
   },
   "127": {
     "id":8,
-    "user": "syc",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -1281,7 +1271,7 @@
   },
   "128": {
     "id":9,
-    "user": "syc",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "TeaRoom.WaterDispenser.on & < & 2min",
@@ -1291,7 +1281,7 @@
   },
   "129": {
     "id":10,
-    "user": "syc",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "Corridor.Speaker.on & < & 1min",
@@ -1301,7 +1291,7 @@
   },
   "130": {
 		"id":1,
-		"user": "bj",
+		
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -1311,7 +1301,7 @@
 	},
 	"131": {
     "id":2,
-    "user": "bj",
+    
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -1321,7 +1311,7 @@
   },
   "132": {
     "id":3,
-    "user": "bj",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -1331,7 +1321,7 @@
   },
   "133": {
     "id":4,
-    "user": "bj",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -1341,7 +1331,7 @@
   },
   "134": {
     "id":5,
-    "user": "bj",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -1351,7 +1341,7 @@
   },
   "135": {
     "id":6,
-    "user": "bj",
+    
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -1361,7 +1351,7 @@
   },
   "136": {
     "id":7,
-    "user": "bj",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
@@ -1371,7 +1361,7 @@
   },
   "137": {
     "id":8,
-    "user": "bj",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -1381,7 +1371,7 @@
   },
   "138": {
     "id":9,
-    "user": "bj",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "TeaRoom.WaterDispenser.on & < & 2min",
@@ -1391,7 +1381,7 @@
   },
   "139": {
     "id":10,
-    "user": "bj",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "Corridor.Speaker.on & < & 1min",
@@ -1401,7 +1391,7 @@
   },
   "140": {
 		"id":1,
-		"user": "dzy",
+		
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -1411,7 +1401,7 @@
 	},
 	"141": {
     "id":2,
-    "user": "dzy",
+    
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -1421,7 +1411,7 @@
   },
   "142": {
     "id":3,
-    "user": "dzy",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -1431,7 +1421,7 @@
   },
   "143": {
     "id":4,
-    "user": "dzy",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -1441,7 +1431,7 @@
   },
   "144": {
     "id":5,
-    "user": "dzy",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -1451,7 +1441,7 @@
   },
   "145": {
     "id":6,
-    "user": "dzy",
+    
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -1461,7 +1451,7 @@
   },
   "146": {
     "id":7,
-    "user": "dzy",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
@@ -1471,7 +1461,7 @@
   },
   "147": {
     "id":8,
-    "user": "dzy",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -1481,7 +1471,7 @@
   },
   "148": {
     "id":9,
-    "user": "dzy",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "TeaRoom.WaterDispenser.on & < & 2min",
@@ -1491,7 +1481,7 @@
   },
   "149": {
     "id":10,
-    "user": "dzy",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "Corridor.Speaker.on & < & 1min",
@@ -1501,7 +1491,7 @@
   },
   "150": {
 		"id":1,
-		"user": "dxy",
+		
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -1511,7 +1501,7 @@
 	},
 	"151": {
     "id":2,
-    "user": "dxy",
+    
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -1521,7 +1511,7 @@
   },
   "152": {
     "id":3,
-    "user": "dxy",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -1531,7 +1521,7 @@
   },
   "153": {
     "id":4,
-    "user": "dxy",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -1541,7 +1531,7 @@
   },
   "154": {
     "id":5,
-    "user": "dxy",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -1551,7 +1541,7 @@
   },
   "155": {
     "id":6,
-    "user": "dxy",
+    
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -1561,7 +1551,7 @@
   },
   "156": {
     "id":7,
-    "user": "dxy",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
@@ -1571,7 +1561,7 @@
   },
   "157": {
     "id":8,
-    "user": "dxy",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -1581,7 +1571,7 @@
   },
   "158": {
     "id":9,
-    "user": "dxy",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "TeaRoom.WaterDispenser.on & < & 2min",
@@ -1591,7 +1581,7 @@
   },
   "159": {
     "id":10,
-    "user": "dxy",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "Corridor.Speaker.on & < & 1min",
@@ -1601,7 +1591,7 @@
   },
   "160": {
 		"id":1,
-		"user": "ltr",
+		
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -1611,7 +1601,7 @@
 	},
 	"161": {
     "id":2,
-    "user": "ltr",
+    
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -1621,7 +1611,7 @@
   },
   "162": {
     "id":3,
-    "user": "ltr",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -1631,7 +1621,7 @@
   },
   "163": {
     "id":4,
-    "user": "ltr",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -1641,7 +1631,7 @@
   },
   "164": {
     "id":5,
-    "user": "ltr",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -1651,7 +1641,7 @@
   },
   "165": {
     "id":6,
-    "user": "ltr",
+    
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -1661,7 +1651,7 @@
   },
   "166": {
     "id":7,
-    "user": "ltr",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
@@ -1671,7 +1661,7 @@
   },
   "167": {
     "id":8,
-    "user": "ltr",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -1681,7 +1671,7 @@
   },
   "168": {
     "id":9,
-    "user": "ltr",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
@@ -1691,7 +1681,7 @@
   },
   "169": {
     "id":10,
-    "user": "ltr",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Corridor.Speaker.on & Corridor.Speaker.off & 1min & always",
@@ -1701,7 +1691,7 @@
   },
   "170": {
 		"id":1,
-		"user": "hd",
+		
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -1711,7 +1701,7 @@
 	},
 	"171": {
     "id":2,
-    "user": "hd",
+    
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -1721,7 +1711,7 @@
   },
   "172": {
     "id":3,
-    "user": "hd",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -1731,7 +1721,7 @@
   },
   "173": {
     "id":4,
-    "user": "hd",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -1741,7 +1731,7 @@
   },
   "174": {
     "id":5,
-    "user": "hd",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -1751,7 +1741,7 @@
   },
   "175": {
     "id":6,
-    "user": "hd",
+    
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -1761,7 +1751,7 @@
   },
   "176": {
     "id":7,
-    "user": "hd",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
@@ -1771,7 +1761,7 @@
   },
   "177": {
     "id":8,
-    "user": "hd",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -1781,7 +1771,7 @@
   },
   "178": {
     "id":9,
-    "user": "hd",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
@@ -1791,7 +1781,7 @@
   },
   "179": {
     "id":10,
-    "user": "hd",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
@@ -1801,7 +1791,7 @@
   },
   "180": {
 		"id":1,
-		"user": "cbl",
+		
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -1811,7 +1801,7 @@
 	},
 	"181": {
     "id":2,
-    "user": "cbl",
+    
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -1821,7 +1811,7 @@
   },
   "182": {
     "id":3,
-    "user": "cbl",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -1831,7 +1821,7 @@
   },
   "183": {
     "id":4,
-    "user": "cbl",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -1841,7 +1831,7 @@
   },
   "184": {
     "id":5,
-    "user": "cbl",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -1851,7 +1841,7 @@
   },
   "185": {
     "id":6,
-    "user": "cbl",
+    
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -1861,7 +1851,7 @@
   },
   "186": {
     "id":7,
-    "user": "cbl",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
@@ -1871,7 +1861,7 @@
   },
   "187": {
     "id":8,
-    "user": "cbl",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -1881,7 +1871,7 @@
   },
   "188": {
     "id":9,
-    "user": "cbl",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
@@ -1891,7 +1881,7 @@
   },
   "189": {
     "id":10,
-    "user": "cbl",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Corridor.Speaker.on & Corridor.Speaker.off & 1min & always",
@@ -1901,7 +1891,7 @@
   },
   "190": {
 		"id":1,
-		"user": "hyt",
+		
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -1911,7 +1901,7 @@
 	},
 	"191": {
     "id":2,
-    "user": "hyt",
+    
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -1921,7 +1911,7 @@
   },
   "192": {
     "id":3,
-    "user": "hyt",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -1931,7 +1921,7 @@
   },
   "193": {
     "id":4,
-    "user": "hyt",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -1941,7 +1931,7 @@
   },
   "194": {
     "id":5,
-    "user": "hyt",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -1951,7 +1941,7 @@
   },
   "195": {
     "id":6,
-    "user": "hyt",
+    
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -1961,7 +1951,7 @@
   },
   "196": {
     "id":7,
-    "user": "hyt",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
@@ -1971,7 +1961,7 @@
   },
   "197": {
     "id":8,
-    "user": "hyt",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -1981,7 +1971,7 @@
   },
   "198": {
     "id":9,
-    "user": "hyt",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "TeaRoom.WaterDispenser.on & < & 2min",
@@ -1991,7 +1981,7 @@
   },
   "199": {
     "id":10,
-    "user": "hyt",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "Corridor.Speaker.on & < & 1min",
@@ -2001,7 +1991,7 @@
   },
   "200": {
 		"id":1,
-		"user": "zsm",
+		
 		"dsl": {
 			"template": "effect-effect",
 			"value": "Lab.temperature_down & Lab.temperature_up & never",
@@ -2011,7 +2001,7 @@
 	},
 	"201": {
     "id":2,
-    "user": "zsm",
+    
 		"dsl": {
 			"template": "effect-state",
       "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
@@ -2021,7 +2011,7 @@
   },
   "202": {
     "id":3,
-    "user": "zsm",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
@@ -2031,7 +2021,7 @@
   },
   "203": {
     "id":4,
-    "user": "zsm",
+    
 		"dsl": {
 			"template": "state-state",
       "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
@@ -2041,7 +2031,7 @@
   },
   "204": {
     "id":5,
-    "user": "zsm",
+    
 		"dsl": {
 			"template": "event-state",
       "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
@@ -2051,7 +2041,7 @@
   },
   "205": {
     "id":6,
-    "user": "zsm",
+    
 		"dsl": {
 			"template": "effect-time",
       "value": "Lab.humidity_up & < & 1hour & always",
@@ -2061,7 +2051,7 @@
   },
   "206": {
     "id":7,
-    "user": "zsm",
+    
 		"dsl": {
 			"template": "effect-state-time",
       "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
@@ -2071,7 +2061,7 @@
   },
   "207": {
     "id":8,
-    "user": "zsm",
+    
 		"dsl": {
 			"template": "event-state-time",
       "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
@@ -2081,7 +2071,7 @@
   },
   "208": {
     "id":9,
-    "user": "zsm",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "TeaRoom.WaterDispenser.on & < & 2min",
@@ -2091,11 +2081,2372 @@
   },
   "209": {
     "id":10,
-    "user": "zsm",
+    
 		"dsl": {
 			"template": "state-time",
       "value": "Corridor.Speaker.on & < & 1min",
       "description": "The duration of [ TeaRoom.Speaker.on ] must [ < 1min ]."
+    },
+		"app": "Excessive noise"
+  },
+	"210": {
+		"id":1,
+		"dsl": {
+			"template": "effect-effect",
+			"value": "Lab.temperature_down & Lab.temperature_up & never",
+			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+		},
+		"app": "Temperature regulation effect conflict"
+	},
+	"211": {
+    "id":2,
+		"dsl": {
+			"template": "effect-state",
+      "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+      "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+		},
+		"app": "Brightness regulation"
+  },
+  "212": {
+    "id":3,
+		"dsl": {
+			"template": "state-state",
+      "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+		},
+		"app": "Raining/Window conflict"
+  },
+  "213": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "214": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "215": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "216": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "217": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "218": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "219": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+	"220": {
+		"id":1,
+		"dsl": {
+			"template": "effect-effect",
+			"value": "Lab.temperature_down & Lab.temperature_up & never",
+			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+		},
+		"app": "Temperature regulation effect conflict"
+	},
+	"221": {
+    "id":2,
+		"dsl": {
+			"template": "effect-state",
+      "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+      "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+		},
+		"app": "Brightness regulation"
+  },
+  "222": {
+    "id":3,
+		"dsl": {
+			"template": "state-state",
+      "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+		},
+		"app": "Raining/Window conflict"
+  },
+  "223": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "224": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "225": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "226": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "227": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "228": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "229": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+  "230": {
+	"id":1,
+	"dsl": {
+		"template": "effect-effect",
+		"value": "Lab.temperature_down & Lab.temperature_up & never",
+		"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+	},
+	"app": "Temperature regulation effect conflict"
+  },
+  "231": {
+   	"id":2,
+	"dsl": {
+		"template": "effect-state",
+	        "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+	        "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+	},
+	"app": "Brightness regulation"
+  },
+  "232": {
+    "id":3,
+	"dsl": {
+		"template": "state-state",
+      		"value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      		"description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+	},
+	"app": "Raining/Window conflict"
+  },
+  "233": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "234": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "235": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "236": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "237": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "238": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "239": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+  "240": {
+	"id":1,
+	"dsl": {
+		"template": "effect-effect",
+		"value": "Lab.temperature_down & Lab.temperature_up & never",
+		"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+	},
+	"app": "Temperature regulation effect conflict"
+  },
+  "241": {
+   	"id":2,
+	"dsl": {
+		"template": "effect-state",
+	        "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+	        "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+	},
+	"app": "Brightness regulation"
+  },
+  "242": {
+    "id":3,
+	"dsl": {
+		"template": "state-state",
+      		"value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      		"description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+	},
+	"app": "Raining/Window conflict"
+  },
+  "243": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "244": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "245": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "246": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "247": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "248": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "249": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+"250": {
+	"id":1,
+	"dsl": {
+		"template": "effect-effect",
+		"value": "Lab.temperature_down & Lab.temperature_up & never",
+		"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+	},
+	"app": "Temperature regulation effect conflict"
+  },
+  "251": {
+   	"id":2,
+	"dsl": {
+		"template": "effect-state",
+	        "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+	        "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+	},
+	"app": "Brightness regulation"
+  },
+  "252": {
+    "id":3,
+	"dsl": {
+		"template": "state-state",
+      		"value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      		"description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+	},
+	"app": "Raining/Window conflict"
+  },
+  "253": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "254": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "255": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "256": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "257": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "258": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "259": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+  "260": {
+	"id":1,
+	"dsl": {
+		"template": "effect-effect",
+		"value": "Lab.temperature_down & Lab.temperature_up & never",
+		"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+	},
+	"app": "Temperature regulation effect conflict"
+  },
+  "261": {
+   	"id":2,
+	"dsl": {
+		"template": "effect-state",
+	        "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+	        "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+	},
+	"app": "Brightness regulation"
+  },
+  "262": {
+    "id":3,
+	"dsl": {
+		"template": "state-state",
+      		"value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      		"description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+	},
+	"app": "Raining/Window conflict"
+  },
+  "263": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "264": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "265": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "266": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "267": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "268": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "269": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+  "270": {
+	"id":1,
+	"dsl": {
+		"template": "effect-effect",
+		"value": "Lab.temperature_down & Lab.temperature_up & never",
+		"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+	},
+	"app": "Temperature regulation effect conflict"
+  },
+  "271": {
+   	"id":2,
+	"dsl": {
+		"template": "effect-state",
+	        "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+	        "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+	},
+	"app": "Brightness regulation"
+  },
+  "272": {
+    "id":3,
+	"dsl": {
+		"template": "state-state",
+      		"value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      		"description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+	},
+	"app": "Raining/Window conflict"
+  },
+  "273": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "274": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "275": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "276": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "277": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "278": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "279": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+  "280": {
+	"id":1,
+	"dsl": {
+		"template": "effect-effect",
+		"value": "Lab.temperature_down & Lab.temperature_up & never",
+		"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+	},
+	"app": "Temperature regulation effect conflict"
+  },
+  "281": {
+   	"id":2,
+	"dsl": {
+		"template": "effect-state",
+	        "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+	        "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+	},
+	"app": "Brightness regulation"
+  },
+  "282": {
+    "id":3,
+	"dsl": {
+		"template": "state-state",
+      		"value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      		"description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+	},
+	"app": "Raining/Window conflict"
+  },
+  "283": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "284": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "285": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "286": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "287": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "288": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "289": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+  "290": {
+	"id":1,
+	"dsl": {
+		"template": "effect-effect",
+		"value": "Lab.temperature_down & Lab.temperature_up & never",
+		"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+	},
+	"app": "Temperature regulation effect conflict"
+  },
+  "291": {
+   	"id":2,
+	"dsl": {
+		"template": "effect-state",
+	        "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+	        "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+	},
+	"app": "Brightness regulation"
+  },
+  "292": {
+    "id":3,
+	"dsl": {
+		"template": "state-state",
+      		"value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      		"description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+	},
+	"app": "Raining/Window conflict"
+  },
+  "293": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "294": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "295": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "296": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "297": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "298": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "299": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+  "300": {
+		"id":1,
+		
+		"dsl": {
+			"template": "effect-effect",
+			"value": "Lab.temperature_down & Lab.temperature_up & never",
+			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+		},
+		"app": "Temperature regulation effect conflict"
+	},
+	"301": {
+    "id":2,
+    
+		"dsl": {
+			"template": "effect-state",
+      "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+      "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+		},
+		"app": "Brightness regulation"
+  },
+  "302": {
+    "id":3,
+    
+		"dsl": {
+			"template": "state-state",
+      "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+		},
+		"app": "Raining/Window conflict"
+  },
+  "303": {
+    "id":4,
+    
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "304": {
+    "id":5,
+    
+		"dsl": {
+			"template": "event-state",
+      "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "When [ TeaRoom.WaterDispenser.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "305": {
+    "id":6,
+    
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "306": {
+    "id":7,
+    
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
+      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "307": {
+    "id":8,
+    
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "308": {
+    "id":9,
+    
+		"dsl": {
+			"template": "state-time",
+      "value": "TeaRoom.WaterDispenser.on & < & 2min",
+      "description": "The duration of [ TeaRoom.WaterDispenser.on ] must [ < 2min ]."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "309": {
+    "id":10,
+    
+		"dsl": {
+			"template": "state-time",
+      "value": "Corridor.Speaker.on & < & 1min",
+      "description": "The duration of [ TeaRoom.Speaker.on ] must [ < 1min ]."
+    },
+		"app": "Excessive noise"
+  },
+	"310": {
+		"id":1,
+		"dsl": {
+			"template": "effect-effect",
+			"value": "Lab.temperature_down & Lab.temperature_up & never",
+			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+		},
+		"app": "Temperature regulation effect conflict"
+	},
+	"311": {
+    "id":2,
+		"dsl": {
+			"template": "effect-state",
+      "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+      "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+		},
+		"app": "Brightness regulation"
+  },
+  "312": {
+    "id":3,
+		"dsl": {
+			"template": "state-state",
+      "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+		},
+		"app": "Raining/Window conflict"
+  },
+  "313": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "314": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "315": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "316": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "317": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "318": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "319": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+	"320": {
+		"id":1,
+		"dsl": {
+			"template": "effect-effect",
+			"value": "Lab.temperature_down & Lab.temperature_up & never",
+			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+		},
+		"app": "Temperature regulation effect conflict"
+	},
+	"321": {
+    "id":2,
+		"dsl": {
+			"template": "effect-state",
+      "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+      "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+		},
+		"app": "Brightness regulation"
+  },
+  "322": {
+    "id":3,
+		"dsl": {
+			"template": "state-state",
+      "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+		},
+		"app": "Raining/Window conflict"
+  },
+  "323": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "324": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "325": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "326": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "327": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "328": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "329": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+  "330": {
+	"id":1,
+	"dsl": {
+		"template": "effect-effect",
+		"value": "Lab.temperature_down & Lab.temperature_up & never",
+		"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+	},
+	"app": "Temperature regulation effect conflict"
+  },
+  "331": {
+   	"id":2,
+	"dsl": {
+		"template": "effect-state",
+	        "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+	        "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+	},
+	"app": "Brightness regulation"
+  },
+  "332": {
+    "id":3,
+	"dsl": {
+		"template": "state-state",
+      		"value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      		"description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+	},
+	"app": "Raining/Window conflict"
+  },
+  "333": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "334": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "335": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "336": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "337": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "338": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "339": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+  "340": {
+	"id":1,
+	"dsl": {
+		"template": "effect-effect",
+		"value": "Lab.temperature_down & Lab.temperature_up & never",
+		"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+	},
+	"app": "Temperature regulation effect conflict"
+  },
+  "341": {
+   	"id":2,
+	"dsl": {
+		"template": "effect-state",
+	        "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+	        "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+	},
+	"app": "Brightness regulation"
+  },
+  "342": {
+    "id":3,
+	"dsl": {
+		"template": "state-state",
+      		"value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      		"description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+	},
+	"app": "Raining/Window conflict"
+  },
+  "343": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "344": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "345": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "346": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "347": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "348": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "349": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+"350": {
+	"id":1,
+	"dsl": {
+		"template": "effect-effect",
+		"value": "Lab.temperature_down & Lab.temperature_up & never",
+		"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+	},
+	"app": "Temperature regulation effect conflict"
+  },
+  "351": {
+   	"id":2,
+	"dsl": {
+		"template": "effect-state",
+	        "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+	        "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+	},
+	"app": "Brightness regulation"
+  },
+  "352": {
+    "id":3,
+	"dsl": {
+		"template": "state-state",
+      		"value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      		"description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+	},
+	"app": "Raining/Window conflict"
+  },
+  "353": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "354": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "355": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "356": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "357": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "358": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "359": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+  "360": {
+	"id":1,
+	"dsl": {
+		"template": "effect-effect",
+		"value": "Lab.temperature_down & Lab.temperature_up & never",
+		"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+	},
+	"app": "Temperature regulation effect conflict"
+  },
+  "361": {
+   	"id":2,
+	"dsl": {
+		"template": "effect-state",
+	        "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+	        "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+	},
+	"app": "Brightness regulation"
+  },
+  "362": {
+    "id":3,
+	"dsl": {
+		"template": "state-state",
+      		"value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      		"description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+	},
+	"app": "Raining/Window conflict"
+  },
+  "363": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "364": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "365": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "366": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "367": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "368": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "369": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+  "370": {
+	"id":1,
+	"dsl": {
+		"template": "effect-effect",
+		"value": "Lab.temperature_down & Lab.temperature_up & never",
+		"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+	},
+	"app": "Temperature regulation effect conflict"
+  },
+  "371": {
+   	"id":2,
+	"dsl": {
+		"template": "effect-state",
+	        "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+	        "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+	},
+	"app": "Brightness regulation"
+  },
+  "372": {
+    "id":3,
+	"dsl": {
+		"template": "state-state",
+      		"value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      		"description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+	},
+	"app": "Raining/Window conflict"
+  },
+  "373": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "374": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "375": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "376": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "377": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "378": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "379": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+  "380": {
+	"id":1,
+	"dsl": {
+		"template": "effect-effect",
+		"value": "Lab.temperature_down & Lab.temperature_up & never",
+		"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+	},
+	"app": "Temperature regulation effect conflict"
+  },
+  "381": {
+   	"id":2,
+	"dsl": {
+		"template": "effect-state",
+	        "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+	        "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+	},
+	"app": "Brightness regulation"
+  },
+  "382": {
+    "id":3,
+	"dsl": {
+		"template": "state-state",
+      		"value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      		"description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+	},
+	"app": "Raining/Window conflict"
+  },
+  "383": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "384": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "385": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "386": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "387": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "388": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "389": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+  "390": {
+	"id":1,
+	"dsl": {
+		"template": "effect-effect",
+		"value": "Lab.temperature_down & Lab.temperature_up & never",
+		"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+	},
+	"app": "Temperature regulation effect conflict"
+  },
+  "391": {
+   	"id":2,
+	"dsl": {
+		"template": "effect-state",
+	        "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+	        "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+	},
+	"app": "Brightness regulation"
+  },
+  "392": {
+    "id":3,
+	"dsl": {
+		"template": "state-state",
+      		"value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      		"description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+	},
+	"app": "Raining/Window conflict"
+  },
+  "393": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "394": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "395": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "396": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "397": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "398": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "399": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+,
+  "400": {
+		"id":1,
+		
+		"dsl": {
+			"template": "effect-effect",
+			"value": "Lab.temperature_down & Lab.temperature_up & never",
+			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+		},
+		"app": "Temperature regulation effect conflict"
+	},
+	"401": {
+    "id":2,
+    
+		"dsl": {
+			"template": "effect-state",
+      "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+      "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+		},
+		"app": "Brightness regulation"
+  },
+  "402": {
+    "id":3,
+    
+		"dsl": {
+			"template": "state-state",
+      "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+		},
+		"app": "Raining/Window conflict"
+  },
+  "403": {
+    "id":4,
+    
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "404": {
+    "id":5,
+    
+		"dsl": {
+			"template": "event-state",
+      "value": "TeaRoom.human_undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "When [ TeaRoom.WaterDispenser.on ] , [ TeaRoom.human_undetected ] will [ never ] happen."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "405": {
+    "id":6,
+    
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "406": {
+    "id":7,
+    
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Lab.air_quality_up & [ Lab.AirQuality.low, Lab.HumanState.detected ] & 10min & always",
+      "description": "After [ Lab.AirQuality.low, Lab.HumanState.detected ], within [ 10min ], [ Lab.air_quality_up ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "407": {
+    "id":8,
+    
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "408": {
+    "id":9,
+    
+		"dsl": {
+			"template": "state-time",
+      "value": "TeaRoom.WaterDispenser.on & < & 2min",
+      "description": "The duration of [ TeaRoom.WaterDispenser.on ] must [ < 2min ]."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "409": {
+    "id":10,
+    
+		"dsl": {
+			"template": "state-time",
+      "value": "Corridor.Speaker.on & < & 1min",
+      "description": "The duration of [ TeaRoom.Speaker.on ] must [ < 1min ]."
+    },
+		"app": "Excessive noise"
+  },
+	"410": {
+		"id":1,
+		"dsl": {
+			"template": "effect-effect",
+			"value": "Lab.temperature_down & Lab.temperature_up & never",
+			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+		},
+		"app": "Temperature regulation effect conflict"
+	},
+	"411": {
+    "id":2,
+		"dsl": {
+			"template": "effect-state",
+      "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+      "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+		},
+		"app": "Brightness regulation"
+  },
+  "412": {
+    "id":3,
+		"dsl": {
+			"template": "state-state",
+      "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+		},
+		"app": "Raining/Window conflict"
+  },
+  "413": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "414": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "415": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "416": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "417": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "418": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "419": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+	"420": {
+		"id":1,
+		"dsl": {
+			"template": "effect-effect",
+			"value": "Lab.temperature_down & Lab.temperature_up & never",
+			"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+		},
+		"app": "Temperature regulation effect conflict"
+	},
+	"421": {
+    "id":2,
+		"dsl": {
+			"template": "effect-state",
+      "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+      "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+		},
+		"app": "Brightness regulation"
+  },
+  "422": {
+    "id":3,
+		"dsl": {
+			"template": "state-state",
+      "value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      "description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+		},
+		"app": "Raining/Window conflict"
+  },
+  "423": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "424": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "425": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "426": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "427": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "428": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "429": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+  "430": {
+	"id":1,
+	"dsl": {
+		"template": "effect-effect",
+		"value": "Lab.temperature_down & Lab.temperature_up & never",
+		"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+	},
+	"app": "Temperature regulation effect conflict"
+  },
+  "431": {
+   	"id":2,
+	"dsl": {
+		"template": "effect-state",
+	        "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+	        "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+	},
+	"app": "Brightness regulation"
+  },
+  "432": {
+    "id":3,
+	"dsl": {
+		"template": "state-state",
+      		"value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      		"description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+	},
+	"app": "Raining/Window conflict"
+  },
+  "433": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "434": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "435": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "436": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "437": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "438": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "439": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+  "440": {
+	"id":1,
+	"dsl": {
+		"template": "effect-effect",
+		"value": "Lab.temperature_down & Lab.temperature_up & never",
+		"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+	},
+	"app": "Temperature regulation effect conflict"
+  },
+  "441": {
+   	"id":2,
+	"dsl": {
+		"template": "effect-state",
+	        "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+	        "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+	},
+	"app": "Brightness regulation"
+  },
+  "442": {
+    "id":3,
+	"dsl": {
+		"template": "state-state",
+      		"value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      		"description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+	},
+	"app": "Raining/Window conflict"
+  },
+  "443": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "444": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "445": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "446": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "447": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "448": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "449": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+"450": {
+	"id":1,
+	"dsl": {
+		"template": "effect-effect",
+		"value": "Lab.temperature_down & Lab.temperature_up & never",
+		"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+	},
+	"app": "Temperature regulation effect conflict"
+  },
+  "451": {
+   	"id":2,
+	"dsl": {
+		"template": "effect-state",
+	        "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+	        "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+	},
+	"app": "Brightness regulation"
+  },
+  "452": {
+    "id":3,
+	"dsl": {
+		"template": "state-state",
+      		"value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      		"description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+	},
+	"app": "Raining/Window conflict"
+  },
+  "453": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "454": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "455": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "456": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "457": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "458": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "459": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
+    },
+		"app": "Excessive noise"
+  },
+  "460": {
+	"id":1,
+	"dsl": {
+		"template": "effect-effect",
+		"value": "Lab.temperature_down & Lab.temperature_up & never",
+		"description": "[ Lab.temperature_down, Lab.temperature_up ] are [ never ] occur simultaneously."
+	},
+	"app": "Temperature regulation effect conflict"
+  },
+  "461": {
+   	"id":2,
+	"dsl": {
+		"template": "effect-state",
+	        "value": "Lab.HumanState.detected & [ Lab.brightness_up ] & always",
+	        "description": "When [ Lab.HumanState.detected ] , [ Lab.brightness_up ] will [ always ] happen."
+	},
+	"app": "Brightness regulation"
+  },
+  "462": {
+    "id":3,
+	"dsl": {
+		"template": "state-state",
+      		"value": "Context.Weather.raining & [ Lab.Window.open ] & never",
+      		"description": "[Context.Weather.raining, Lab.Window.open] should [never] happen simultaneously."
+	},
+	"app": "Raining/Window conflict"
+  },
+  "463": {
+    "id":4,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.MicrowaveOven.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of microwave oven"
+  },
+  "464": {
+    "id":5,
+		"dsl": {
+			"template": "state-state",
+      "value": "TeaRoom.HumanState.undetected & [ TeaRoom.WaterDispenser.on ] & never",
+      "description": "[TeaRoom.HumanState.undetected, TeaRoom.MicrowaveOven.on] should [never] happen simultaneously."
+		},
+		"app": "Unsafe use of water dispenser"
+  },
+  "465": {
+    "id":6,
+		"dsl": {
+			"template": "effect-time",
+      "value": "Lab.humidity_up & < & 1hour & always",
+      "description": "The duration of [ Lab.humidity_up ] must [ < 1hour ]."
+    },
+		"app": "Excessive humidity"
+  },
+  "466": {
+    "id":7,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.air_quality_down & Lab.AirPurifier.on & 10min & always",
+      "description": "After [ Lab.air_quality_down ], within [ 10min ], [ Lab.AirPurifier.on ] will [ always ] happen."
+    },
+		"app": "Low air quality"
+  },
+  "467": {
+    "id":8,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "Lab.human_undetected & Lab.Light.off & 1min & always",
+      "description": "After [ Lab.human_undetected ], within [ 1min ], [ Lab.Light.off ] will [ always ] happen."
+    },
+		"app": "Waste of electricity"
+  },
+  "468": {
+    "id":9,
+		"dsl": {
+			"template": "event-state-time",
+      "value": "TeaRoom.WaterDispenser.on & TeaRoom.WaterDispenser.off & 2min & always",
+      "description": "After [ TeaRoom.WaterDispenser.on ], within [ 2min ], [ TeaRoom.WaterDispenser.off ] will [ always ] happen."
+    },
+		"app": "Drinking fountains work too long"
+  },
+  "469": {
+    "id":10,
+		"dsl": {
+			"template": "effect-state-time",
+      "value": "Corridor.noise_down & [ Corridor.Speaker.on ] & always & 1min",
+      "description": "After [Corridor.Speaker.on], within [ 1min ], [ Corridor.noise_down ] will [ always ] happen."
     },
 		"app": "Excessive noise"
   }
