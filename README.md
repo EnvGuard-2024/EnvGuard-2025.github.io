@@ -4,9 +4,9 @@
 ## Dataset
 We collected data in each of the two real-world WoT environments and built a dataset to evaluate EnvGuard. The dataset is publicly available.   
 The dataset for the office environment is as follows:
-([Office Dataset](https://github.com/EnvGuard-2024/EnvGuard-2024.github.io/tree/master/office-dataset))  
+([Office Dataset](https://github.com/EnvGuard-2024/EnvGuard-2024.github.io/tree/master/DataSet/OfficeEnvironment))  
 The dataset for the home environment is as follows:
-([Home Dataset](https://github.com/EnvGuard-2024/EnvGuard-2024.github.io/tree/master/home-dataset))
+([Home Dataset](https://github.com/EnvGuard-2024/EnvGuard-2024.github.io/tree/master/DataSet/HomeEnvironment))
 
 <p> 
 We conducted a 14-day continuous data collection in the smart office and smart home, recording user activities, application executions and environment changes by capturing every event and action from the initial environment state. 
@@ -39,7 +39,7 @@ The visualized environment property description tool.([GUI](http://47.101.169.12
 
 ## User Study 1
 To understand the user preference for resolution actions, we conduct an online user study to analyze the correlation between the user-selected resolution action and the feature of the violation. The survey questionnair is as follows:
-([User Study 1](https://github.com/EnvGuard-2024/EnvGuard-2024.github.io/blob/master/user-study/UserStudyOne_SurveyQuestionnair.docx))
+([User Study 1](https://github.com/EnvGuard-2024/EnvGuard-2024.github.io/blob/master/UserStudy/UserStudyOne_SurveyQuestionnair.docx))
 
 
 ## Environment Representations
@@ -51,9 +51,9 @@ The environment representation of the smart home WoT environment in [neo4j](http
 ## User Study 2
 We invited 47 students (including 17 females) as participants with a variety of majors, including software engineering (21), biology (12), chemistry (9), and law (5). Among the participants, eighteen of them have experience using WoT platforms and developing WoT applications, while the others do not.  
 The constructed properties of the office environment are as follows:
-([Office-User Study 2](https://github.com/EnvGuard-2024/EnvGuard-2024.github.io/blob/master/user-study/Office_UserStudyTwo_ConstructedProperties.json))  
+([Office-User Study 2](https://github.com/EnvGuard-2024/EnvGuard-2024.github.io/blob/master/UserStudy/UserStudyTwo_ConstructedProperties_Office.json))  
 The constructed properties of the home environment are as follows:
-([Home-User Study 2](https://github.com/EnvGuard-2024/EnvGuard-2024.github.io/blob/master/user-study/Home_UserStudyTwo_ConstructedProperties.json))
+([Home-User Study 2](https://github.com/EnvGuard-2024/EnvGuard-2024.github.io/blob/master/UserStudy/UserStudyTwo_ConstructedProperties_Home.json))
 
 <!-- Properties of environments built by participants using visualisation development tools in usability user studies.([link](https://github.com/EnvGuard-2024/EnvGuard-2024.github.io/blob/master/user-study/user_study.json)) -->
 
