@@ -37,16 +37,14 @@ The dataset includes the initial state of the environment and devices, and the s
 ## GUI Tool
 The visualized environment property description tool.([GUI](http://47.101.169.122:9033/))
 
-## User Study 1
-To understand the user preference for resolution actions, we conduct an online user study to analyze the correlation between the user-selected resolution action and the feature of the violation. The survey questionnair is as follows:
-([User Study 1](https://github.com/EnvGuard-2024/EnvGuard-2024.github.io/blob/master/UserStudy/UserStudyOne_SurveyQuestionnair.docx))
-
-
 ## Environment Representations
 The environment representation of the smart office WoT environment in [neo4j](http://47.101.169.122:7474/browser/)  (bolt port: `7687`, username: `neo4j`, password: `12345678`)
 
 The environment representation of the smart home WoT environment in [neo4j](http://47.101.169.122:7475/browser/)  (bolt port: `7688`, username: `neo4j`, password: `12345678`)
 
+## User Study 1
+To understand the user preference for resolution actions, we conduct an online user study to analyze the correlation between the user-selected resolution action and the feature of the violation. The survey questionnair is as follows:
+([User Study 1](https://github.com/EnvGuard-2024/EnvGuard-2024.github.io/blob/master/UserStudy/UserStudyOne_SurveyQuestionnair.docx))
 
 ## User Study 2
 We invited 47 students (including 17 females) as participants with a variety of majors, including software engineering (21), biology (12), chemistry (9), and law (5). Among the participants, eighteen of them have experience using WoT platforms and developing WoT applications, while the others do not.  
