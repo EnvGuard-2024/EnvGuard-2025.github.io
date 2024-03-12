@@ -39,7 +39,6 @@ The visualized environment property description tool.([GUI](http://47.101.169.12
 
 ## Environment Representations
 The environment representation of the smart office WoT environment in [neo4j](http://47.101.169.122:7474/browser/)  (bolt port: `7687`, username: `neo4j`, password: `12345678`)
-
 The environment representation of the smart home WoT environment in [neo4j](http://47.101.169.122:7475/browser/)  (bolt port: `7688`, username: `neo4j`, password: `12345678`)
 
 ## User Study 1
