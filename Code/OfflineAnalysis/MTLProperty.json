@@ -1,0 +1,81 @@
+[
+  {
+    "mtl": "G(Lab.humidity_up -> (F[0, 60*60] !Lab.humidity_up))",
+    "trigger": "'window_on'==df.iat[index, 0] and 'Lab'==df.iat[index, 2]",
+    "time": "60*60",
+    "condition": "(env['space_dict']['Lab']['env_state']['Window'].get() ==1 and ((env['space_dict']['Context']['env_state']['Humidity'].get() ==1 and env['space_dict']['Lab']['env_state']['Humidity'].get() ==0) or (env['space_dict']['Context']['env_state']['Humidity'].get() ==1 and env['space_dict']['Lab']['env_state']['Humidity'].get() ==-1) or (env['space_dict']['Context']['env_state']['Humidity'].get() ==0 and env['space_dict']['Lab']['env_state']['Humidity'].get() ==-1)))",
+    "fix": [
+      [
+        "Lab.Window.action_off",
+        "((env['space_dict']['Context']['env_state']['Humidity'].get() ==1 and env['space_dict']['Lab']['env_state']['Humidity'].get() ==0) or (env['space_dict']['Context']['env_state']['Humidity'].get() ==1 and env['space_dict']['Lab']['env_state']['Humidity'].get() ==-1) or (env['space_dict']['Context']['env_state']['Humidity'].get() ==0 and env['space_dict']['Lab']['env_state']['Humidity'].get() ==-1))"
+      ]
+    ],
+    "flag": "G",
+    "contact": "or",
+    "undo": "Lab.Window.action_off"
+  },
+  {
+    "mtl": "G(Lab.humidity_up -> (F[0, 60*60] !Lab.humidity_up))",
+    "trigger": "'humidifier_on'==df.iat[index, 0] and 'Lab'==df.iat[index, 2]",
+    "time": "60*60",
+    "condition": "(env['space_dict']['Lab']['env_state']['Humidifier'].get() ==1)",
+    "fix": [
+      [
+        "Lab.Humidifier.action_off",
+        ""
+      ]
+    ],
+    "flag": "G",
+    "contact": "or",
+    "undo": "Lab.Humidifier.action_off"
+  },
+  {
+    "mtl": "G((Lab.AirQuality.low & Lab.HumanState.detected) -> (F[0, 10*60] Lab.air_quality_up))",
+    "trigger": "('window_on'==df.iat[index, 0] and 'Lab'==df.iat[index, 2]) or ('air_quality_down'==df.iat[index, 0] and 'Lab'==df.iat[index, 2]) or ('human_detected'==df.iat[index, 0] and 'Lab'==df.iat[index, 2])",
+    "time": "10*60",
+    "condition": "(env['space_dict']['Lab']['env_state']['AirQuality'].get() ==-1 and env['space_dict']['Lab']['env_state']['HumanState'].get() ==1) and ( not (((env['space_dict']['Lab']['env_state']['AirPurifier'].get() ==1)) or ((env['space_dict']['Lab']['env_state']['Window'].get() ==1  and  ((env['space_dict']['Context']['env_state']['AirQuality'].get() ==1  and  env['space_dict']['Lab']['env_state']['AirQuality'].get() ==0)  or  (env['space_dict']['Context']['env_state']['AirQuality'].get() ==1  and  env['space_dict']['Lab']['env_state']['AirQuality'].get() ==-1)  or  (env['space_dict']['Context']['env_state']['AirQuality'].get() ==0  and  env['space_dict']['Lab']['env_state']['AirQuality'].get() ==-1))))))",
+    "fix": [
+      [
+        "Lab.Window.action_on",
+        "((env['space_dict']['Context']['env_state']['AirQuality'].get() ==1 and env['space_dict']['Lab']['env_state']['AirQuality'].get() ==0) or (env['space_dict']['Context']['env_state']['AirQuality'].get() ==1 and env['space_dict']['Lab']['env_state']['AirQuality'].get() ==-1) or (env['space_dict']['Context']['env_state']['AirQuality'].get() ==0 and env['space_dict']['Lab']['env_state']['AirQuality'].get() ==-1))"
+      ],
+      [
+        "Lab.AirPurifier.action_on",
+        ""
+      ]
+    ],
+    "flag": "G",
+    "contact": "or",
+    "undo": "Undo"
+  },
+  {
+    "mtl": "G(MeetingRoomOne.human_undetected -> (F[0, 30] MeetingRoomOne.Light.off))",
+    "trigger": "df.iat[index, 2] == 'MeetingRoomOne' and df.iat[index, 0] == 'human_undetected'",
+    "time": "30",
+    "condition": " not (env['space_dict']['MeetingRoomOne']['env_state']['Light'].get() ==1)",
+    "fix": [],
+    "flag": "G",
+    "contact": "or",
+    "undo": "Undo"
+  },
+  {
+    "mtl": "G((TeaRoom.WaterDispenser.on) -> (F[0, 2*60] !(TeaRoom.WaterDispenser.on)))",
+    "trigger": "('water_dispenser_down'==df.iat[index, 0] and 'TeaRoom'==df.iat[index, 2])",
+    "time": "2*60",
+    "condition": "(env['space_dict']['TeaRoom']['env_state']['WaterDispenser'].get() ==1)",
+    "fix": [],
+    "flag": "G",
+    "contact": "or",
+    "undo": "trigger"
+  },
+  {
+    "mtl": "G((Lab.Speaker.on) -> (F[0, 1*60] !(Lab.Speaker.on)))",
+    "trigger": "('speaker_down'==df.iat[index, 0] and 'Lab'==df.iat[index, 2])",
+    "time": "1*60",
+    "condition": "(env['space_dict']['Lab']['env_state']['Speaker'].get() ==1)",
+    "fix": [],
+    "flag": "G",
+    "contact": "or",
+    "undo": "trigger"
+  }
+]
