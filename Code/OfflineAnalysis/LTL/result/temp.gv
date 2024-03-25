@@ -1,0 +1,14 @@
+digraph {
+	node [label="['representation.state.HumanState', 'HumanState', 0, 'representation.Device.MicrowaveOven', 'MicrowaveOven', 0]"] s0
+	node [label="['representation.state.HumanState', 'HumanState', 0, 'representation.Device.MicrowaveOven', 'MicrowaveOven', 1]"] s1
+	node [label="['representation.state.HumanState', 'HumanState', 1, 'representation.Device.MicrowaveOven', 'MicrowaveOven', 0]"] s2
+	node [label="['representation.state.HumanState', 'HumanState', 1, 'representation.Device.MicrowaveOven', 'MicrowaveOven', 1]"] s3
+	s0 -> s1 [label = "TeaRoom.MicrowaveOven.on"]
+	s0 -> s2 [label = "TeaRoom.HumanState.increase"]
+	s2 -> s3 [label = "TeaRoom.MicrowaveOven.on"]
+	s2 -> s0 [label = "TeaRoom.HumanState.decrease"]
+	s3 -> s2 [label = "TeaRoom.MicrowaveOven.off"]
+	s3 -> s1 [label = "TeaRoom.HumanState.decrease"]
+	s1 -> s0 [label = "TeaRoom.MicrowaveOven.off"]
+	s1 -> s3 [label = "TeaRoom.HumanState.increase"]
+}
