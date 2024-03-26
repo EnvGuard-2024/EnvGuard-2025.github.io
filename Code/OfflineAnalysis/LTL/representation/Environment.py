@@ -1,28 +1,11 @@
 import requests
-from representation.Device.MetaType import BaseType
-from representation.Device.AC import AC
-from representation.Device.Curtain import Curtain
-from representation.Device.Door import Door
-from representation.Device.Heater import Heater
-from representation.Device.Humidifier import Humidifier
-from representation.Device.Light import Light
-from representation.Device.MicrowaveOven import MicrowaveOven
-from representation.Device.Printer import Printer
-from representation.Device.AirPurifier import AirPurifier
-from representation.Device.Speaker import Speaker
-from representation.Device.TV import TV
-from representation.Device.WaterDispenser import WaterDispenser
-from representation.Device.Window import Window
-from representation.state.Brightness import Brightness
-from representation.state.HumanState import HumanState
-from representation.state.AirQuality import AirQuality
-from representation.state.Humidity import Humidity
-from representation.state.Noise import Noise
-from representation.state.Weather import Weather
-from representation.state.Temperature import Temperature
 import re
 import os
 import imp
+from State import State
+from StateHumanSate import HumanState
+from StateWeather import Weather
+from Device import Device
 
 device_list = []
 state_list = []
@@ -75,33 +58,22 @@ def get_dict(space_name, space):
             temp["ext_action_list"].append(space_name + '.' + key + '.' + item)
     return temp
 
-def get_type(path,type):
-    try:
-        file_list = os.listdir(path)
-    except:
-        file_list = []
-    if file_list:
-        for file in file_list:
-            file = os.path.join(path, file)
-            if os.path.isdir(file):
-                get_type(file,type)
-            else:
-                if file.endswith(".py"):
-                    with open(file, encoding="utf-8") as f:
-                        for line in f.readlines():
-                            cls_match = re.match(r"class\s(.*?)[\(:]", line)
-                            if cls_match:
-                                cls_name = cls_match.group(1)
-                                try:
-                                    module = imp.load_source('mycl', file)
-                                    cls_a = getattr(module, cls_name)
-                                    if cls_a:
-                                        if type == 'device':
-                                            device_list.append(cls_name)
-                                        else:
-                                            state_list.append(cls_name)
-                                except:
-                                    pass
+def get_type():
+    url = "http://47.101.169.122:5002/room_list"
+    room_list = requests.get(url).json()
+    for room in room_list:
+        url = "http://47.101.169.122:5002/room_device/" + room
+        devices = requests.get(url).json()
+        for device in devices:
+            if device[:-3] not in device_list:
+                device_list.append(device[:-3])
+        
+        url = "http://47.101.169.122:5002/room_state/" + room
+        states = requests.get(url).json()
+        for state in states:
+            if state not in state_list:
+                state_list.append(state)
+        
 
 def setEnvironment(ltl):
     env = dict()
@@ -130,7 +102,7 @@ def setEnvironment(ltl):
             space_dict[room]["device_dict"] = dict()
             space_dict[room]["env_state"] = dict()
         if deviceOrState in device_list and deviceOrState not in space_dict[room]["device_dict"]:
-            space_dict[room]["device_dict"][deviceOrState] = globals()[deviceOrState](room)  
+            space_dict[room]["device_dict"][deviceOrState] = Device(room, deviceOrState)
             
             url = "http://47.101.169.122:5002/action_list_by_device/" + room + "/" + deviceOrState + "001"
             action_list = requests.get(url).json()
@@ -147,7 +119,12 @@ def setEnvironment(ltl):
                         if preCondition not in stack:
                             stack.append(preCondition)
         elif deviceOrState in state_list and deviceOrState not in space_dict[room]["env_state"]:
-            space_dict[room]["env_state"][deviceOrState] = globals()[deviceOrState](room)
+            if deviceOrState == "HumanState":
+                space_dict[room]["env_state"][deviceOrState] = HumanState(room)
+            elif deviceOrState == "Weather":
+                space_dict[room]["env_state"][deviceOrState] = Weather(room)
+            else:
+                space_dict[room]["env_state"][deviceOrState] = State(room)
                     
     for room in space_dict:
         temp = get_dict(room, space_dict[room])
@@ -164,9 +141,6 @@ def setEnvironment(ltl):
 def getEnvironment():
     return environment
 
-path = "./representation/Device"
-get_type(path, 'device')
-path = "./representation/state"
-get_type(path, 'state')   
+get_type()  
 
 environment = dict()

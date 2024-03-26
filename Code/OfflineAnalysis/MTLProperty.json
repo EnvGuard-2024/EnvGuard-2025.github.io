@@ -1,4 +1,4 @@
-[ 
+[
   {
     "mtl": "G(Lab.humidity_up -> (F[0, 60*60] !Lab.humidity_up))",
     "trigger": "'window_on'==df.iat[index, 0] and 'Lab'==df.iat[index, 2]",

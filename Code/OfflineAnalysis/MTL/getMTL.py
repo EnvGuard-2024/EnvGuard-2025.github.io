@@ -1,6 +1,6 @@
 import requests
 import os,sys,re
-from OfflineAnalysis.MTL.Environment import env,device_list,state_list
+from Environment import env,device_list,state_list
 
 time_template = {
     "trigger":"",
