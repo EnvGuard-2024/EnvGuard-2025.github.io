@@ -23,14 +23,14 @@ The spatial layout and the deployed devices of the smart office and the smart ho
 We deployed 5 types of WoT applications in office and home for our daily office work and home life. The applications are as follows:
 
 <div align=center> 
-<img width="44.6%" style="margin-right:2%" src="https://raw.githubusercontent.com/EnvGuard-2024/EnvGuard-2024.github.io/master/images/office_application.png"/>
+<img width="44.7%" style="margin-right:2%" src="https://raw.githubusercontent.com/EnvGuard-2024/EnvGuard-2024.github.io/master/images/office_application.png"/>
 <img width="48%" src="https://raw.githubusercontent.com/EnvGuard-2024/EnvGuard-2024.github.io/master/images/home_application.png"/> 
 </div>
 
 Through interviews with staff in the environment, we obtained ten expected safety and security property requirements from interviews with individuals who work or live there daily for each environment. We invited six experts with WoT development experience to independently analyze and label the events and actions that violated the properties (Fleiss Kappa = 0.68) and resolve discrepancies through discussion to obtain the ground truth. The properties are as follows:
 
 <div align=center>
-<img width="46%" style="margin-right:2%" src="https://raw.githubusercontent.com/EnvGuard-2024/EnvGuard-2024.github.io/master/images/office_propertys.png"/>
+<img width="46.3%" style="margin-right:2%" src="https://raw.githubusercontent.com/EnvGuard-2024/EnvGuard-2024.github.io/master/images/office_propertys.png"/>
 <img width="46.3%" src="https://raw.githubusercontent.com/EnvGuard-2024/EnvGuard-2024.github.io/master/images/home_propertys.png"/>
 </div>
 
