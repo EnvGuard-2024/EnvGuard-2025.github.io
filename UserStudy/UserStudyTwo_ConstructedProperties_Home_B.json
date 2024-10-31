@@ -1,0 +1,1922 @@
+{
+  "0": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "1": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.Window.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.Window.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "2": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "3": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "4": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "5": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "6": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirQuality.low & Kitchen.AirPurifier.on & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low ], within [ 5min ], [ Kitchen.AirPurifier.on ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "7": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "8": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & Kitchen.Fridge.off & 3min & Always",
+      "description": "After [ Kitchen.Fridge.on ], within [ 3min ], [ Kitchen.Fridge.off ] will [ Always ] happen."
+    },
+    "app": "Fridge works too long"
+  },
+  "9": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & Bathroom.TowerDryer.off & 60min & Always",
+      "description": "After [ Bathroom.TowerDryer.on ], within [ 60min ], [ Bathroom.TowerDryer.off ] will [ Always ] happen."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "10": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "11": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "12": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "13": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "14": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "15": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Window.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Window.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "16": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirPurifier.on & [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ] & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ], within [ 1min ], [ Kitchen.air_quality_up ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "17": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "18": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & < & 3min",
+      "description": "The duration of [ Kitchen.Fridge.on ] must [ < 3min ]."
+    },
+    "app": "Fridge works too long"
+  },
+  "19": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & < & 60min",
+      "description": "The duration of [ Bathroom.TowerDryer.on ] must [ < 60min ]."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "20": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "21": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "22": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "23": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "24": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "25": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "26": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirPurifier.on & [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ] & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ], within [ 1min ], [ Kitchen.air_quality_up ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "27": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "28": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & < & 3min",
+      "description": "The duration of [ Kitchen.Fridge.on ] must [ < 3min ]."
+    },
+    "app": "Fridge works too long"
+  },
+  "29": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & < & 60min",
+      "description": "The duration of [ Bathroom.TowerDryer.on ] must [ < 60min ]."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "30": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "31": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "32": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "33": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "34": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "35": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "36": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirPurifier.on & [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ] & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ], within [ 1min ], [ Kitchen.air_quality_up ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "37": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "38": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & < & 3min",
+      "description": "The duration of [ Kitchen.Fridge.on ] must [ < 3min ]."
+    },
+    "app": "Fridge works too long"
+  },
+  "39": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & < & 60min",
+      "description": "The duration of [ Bathroom.TowerDryer.on ] must [ < 60min ]."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "40": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "41": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "42": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "43": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "44": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "45": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "46": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirPurifier.on & [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ] & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ], within [ 1min ], [ Kitchen.air_quality_up ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "47": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "48": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & < & 3min",
+      "description": "The duration of [ Kitchen.Fridge.on ] must [ < 3min ]."
+    },
+    "app": "Fridge works too long"
+  },
+  "49": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & < & 60min",
+      "description": "The duration of [ Bathroom.TowerDryer.on ] must [ < 60min ]."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "50": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "51": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "52": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "53": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "54": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "55": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "56": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.Window.on & [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ] & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ], within [ 1min ], [ Kitchen.air_quality_up ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "57": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "58": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & < & 3min",
+      "description": "The duration of [ Kitchen.Fridge.on ] must [ < 3min ]."
+    },
+    "app": "Fridge works too long"
+  },
+  "59": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & < & 1hour",
+      "description": "The duration of [ Bathroom.TowerDryer.on ] must [ < 1hour ]."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "60": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "61": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "62": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "63": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "64": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "65": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "66": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirPurifier.on & [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ] & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ], within [ 1min ], [ Kitchen.air_quality_up ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "67": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "68": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & < & 3min",
+      "description": "The duration of [ Kitchen.Fridge.on ] must [ < 3min ]."
+    },
+    "app": "Fridge works too long"
+  },
+  "69": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & < & 60min",
+      "description": "The duration of [ Bathroom.TowerDryer.on ] must [ < 60min ]."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "70": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "71": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "72": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "73": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "74": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "75": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "76": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirQuality.low & Kitchen.AirPurifier.on & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low ], within [ 5min ], [ Kitchen.AirPurifier.on ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "77": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "78": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & < & 3min",
+      "description": "The duration of [ Kitchen.Fridge.on ] must [ < 3min ]."
+    },
+    "app": "Fridge works too long"
+  },
+  "79": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & < & 60min",
+      "description": "The duration of [ Bathroom.TowerDryer.on ] must [ < 60min ]."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "80": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "81": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "82": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "83": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "84": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "85": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "86": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirPurifier.on & [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ] & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ], within [ 1min ], [ Kitchen.air_quality_up ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "87": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "88": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & < & 3min",
+      "description": "The duration of [ Kitchen.Fridge.on ] must [ < 3min ]."
+    },
+    "app": "Fridge works too long"
+  },
+  "89": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & < & 60min",
+      "description": "The duration of [ Bathroom.TowerDryer.on ] must [ < 60min ]."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "90": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "91": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "92": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "93": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "94": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "95": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "96": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirPurifier.on & [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ] & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ], within [ 1min ], [ Kitchen.air_quality_up ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "97": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "98": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & < & 3min",
+      "description": "The duration of [ Kitchen.Fridge.on ] must [ < 3min ]."
+    },
+    "app": "Fridge works too long"
+  },
+  "99": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & < & 60min",
+      "description": "The duration of [ Bathroom.TowerDryer.on ] must [ < 60min ]."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "100": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "101": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "102": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "103": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "104": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "105": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "106": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirPurifier.on & [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ] & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ], within [ 1min ], [ Kitchen.air_quality_up ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "107": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "108": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & Kitchen.Fridge.off & 3min & Always",
+      "description": "After [ Kitchen.Fridge.on ], within [ 3min ], [ Kitchen.Fridge.off ] will [ Always ] happen."
+    },
+    "app": "Fridge works too long"
+  },
+  "109": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & Bathroom.TowerDryer.off & 60min & Always",
+      "description": "After [ Bathroom.TowerDryer.on ], within [ 60min ], [ Bathroom.TowerDryer.off ] will [ Always ] happen."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "110": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "111": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "112": {
+    "id": 13,
+    "dsl": {
+      "value": "BedroomTwo.Curtain.on & [ BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] , [ BedroomTwo.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Privacy and security"
+  },
+  "113": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "114": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "115": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "116": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirQuality.low & Kitchen.AirPurifier.on & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low ], within [ 5min ], [ Kitchen.AirPurifier.on ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "117": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "118": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & < & 3min",
+      "description": "The duration of [ Kitchen.Fridge.on ] must [ < 3min ]."
+    },
+    "app": "Fridge works too long"
+  },
+  "119": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & < & 60min",
+      "description": "The duration of [ Bathroom.TowerDryer.on ] must [ < 60min ]."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "120": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "121": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "122": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "123": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "124": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "125": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "126": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirPurifier.on & [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ] & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ], within [ 1min ], [ Kitchen.air_quality_up ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "127": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "128": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & < & 3min",
+      "description": "The duration of [ Kitchen.Fridge.on ] must [ < 3min ]."
+    },
+    "app": "Fridge works too long"
+  },
+  "129": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & < & 60min",
+      "description": "The duration of [ Bathroom.TowerDryer.on ] must [ < 60min ]."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "130": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "131": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "132": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "133": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "134": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "135": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "136": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirPurifier.on & [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ] & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ], within [ 1min ], [ Kitchen.air_quality_up ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "137": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "138": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & < & 3min",
+      "description": "The duration of [ Kitchen.Fridge.on ] must [ < 3min ]."
+    },
+    "app": "Fridge works too long"
+  },
+  "139": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & < & 60min",
+      "description": "The duration of [ Bathroom.TowerDryer.on ] must [ < 60min ]."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "140": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "141": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "142": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "143": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "144": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "145": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "146": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirPurifier.on & [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ] & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ], within [ 1min ], [ Kitchen.air_quality_up ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "147": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "148": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & < & 3min",
+      "description": "The duration of [ Kitchen.Fridge.on ] must [ < 3min ]."
+    },
+    "app": "Fridge works too long"
+  },
+  "149": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & < & 60min",
+      "description": "The duration of [ Bathroom.TowerDryer.on ] must [ < 60min ]."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "150": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "151": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "152": {
+    "id": 13,
+    "dsl": {
+      "value": "BedroomTwo.Curtain.on & [ BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] , [ BedroomTwo.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Privacy and security"
+  },
+  "153": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "154": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "155": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "156": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirPurifier.on & [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ] & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ], within [ 1min ], [ Kitchen.air_quality_up ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "157": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "158": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & Kitchen.Fridge.off & 3min & Always",
+      "description": "After [ Kitchen.Fridge.on ], within [ 3min ], [ Kitchen.Fridge.off ] will [ Always ] happen."
+    },
+    "app": "Fridge works too long"
+  },
+  "159": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & Bathroom.TowerDryer.off & 60min & Always",
+      "description": "After [ Bathroom.TowerDryer.on ], within [ 60min ], [ Bathroom.TowerDryer.off ] will [ Always ] happen."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "160": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "161": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "162": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "163": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "164": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "165": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "166": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirPurifier.on & [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ] & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ], within [ 1min ], [ Kitchen.air_quality_up ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "167": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "168": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & < & 3min",
+      "description": "The duration of [ Kitchen.Fridge.on ] must [ < 3min ]."
+    },
+    "app": "Fridge works too long"
+  },
+  "169": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & < & 60min",
+      "description": "The duration of [ Bathroom.TowerDryer.on ] must [ < 60min ]."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "170": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "171": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "172": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "173": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "174": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "175": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "176": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirPurifier.on & [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ] & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ], within [ 1min ], [ Kitchen.air_quality_up ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "177": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "178": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & < & 3min",
+      "description": "The duration of [ Kitchen.Fridge.on ] must [ < 3min ]."
+    },
+    "app": "Fridge works too long"
+  },
+  "179": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & < & 60min",
+      "description": "The duration of [ Bathroom.TowerDryer.on ] must [ < 60min ]."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "180": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "181": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "182": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "183": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "184": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "185": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "186": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirPurifier.on & [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ] & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ], within [ 1min ], [ Kitchen.air_quality_up ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "187": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "188": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & < & 3min",
+      "description": "The duration of [ Kitchen.Fridge.on ] must [ < 3min ]."
+    },
+    "app": "Fridge works too long"
+  },
+  "189": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & < & 60min",
+      "description": "The duration of [ Bathroom.TowerDryer.on ] must [ < 60min ]."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "190": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "191": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "192": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "193": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "194": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "195": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "196": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirQuality.low & Kitchen.AirPurifier.on & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low ], within [ 5min ], [ Kitchen.AirPurifier.on ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "197": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "198": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & Kitchen.Fridge.off & 3min & Always",
+      "description": "After [ Kitchen.Fridge.on ], within [ 3min ], [ Kitchen.Fridge.off ] will [ Always ] happen."
+    },
+    "app": "Fridge works too long"
+  },
+  "199": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & Bathroom.TowerDryer.off & 60min & Always",
+      "description": "After [ Bathroom.TowerDryer.on ], within [ 60min ], [ Bathroom.TowerDryer.off ] will [ Always ] happen."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "200": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "201": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "202": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "203": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "204": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "205": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "206": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirPurifier.on & [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ] & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ], within [ 1min ], [ Kitchen.air_quality_up ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "207": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "208": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & < & 3min",
+      "description": "The duration of [ Kitchen.Fridge.on ] must [ < 3min ]."
+    },
+    "app": "Fridge works too long"
+  },
+  "209": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & < & 60min",
+      "description": "The duration of [ Bathroom.TowerDryer.on ] must [ < 60min ]."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "210": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "211": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "212": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "213": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "214": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "215": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "216": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirPurifier.on & [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ] & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ], within [ 1min ], [ Kitchen.air_quality_up ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "217": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "218": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & Kitchen.Fridge.off & 3min & Always",
+      "description": "After [ Kitchen.Fridge.on ], within [ 3min ], [ Kitchen.Fridge.off ] will [ Always ] happen."
+    },
+    "app": "Fridge works too long"
+  },
+  "219": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & Bathroom.TowerDryer.off & 60min & Always",
+      "description": "After [ Bathroom.TowerDryer.on ], within [ 60min ], [ Bathroom.TowerDryer.off ] will [ Always ] happen."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "220": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "221": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "222": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "223": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "224": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "225": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "226": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirPurifier.on & [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ] & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ], within [ 1min ], [ Kitchen.air_quality_up ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "227": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "228": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & < & 3min",
+      "description": "The duration of [ Kitchen.Fridge.on ] must [ < 3min ]."
+    },
+    "app": "Fridge works too long"
+  },
+  "229": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & < & 60min",
+      "description": "The duration of [ Bathroom.TowerDryer.on ] must [ < 60min ]."
+    },
+    "app": "Tower Dryer works too long"
+  },
+  "230": {
+    "id": 11,
+    "dsl": {
+      "value": "BedroomTwo.AC.on & BedroomTwo.Heater.on & Never",
+      "description": "[ BedroomTwo.AC.on, BedroomTwo.Heater.on ] are [ Never ] occur simultaneously."
+    },
+    "app": "Temperature regulation effect conflict"
+  },
+  "231": {
+    "id": 12,
+    "dsl": {
+      "value": "LivingRoom.AC.on & [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] & Never",
+      "description": "When [ LivingRoom.Temperature.low , LivingRoom.HumanState.detected ] , [ LivingRoom.AC.on ] will [ Never ] happen."
+    },
+    "app": "Low temperature"
+  },
+  "232": {
+    "id": 13,
+    "dsl": {
+      "value": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] & Never",
+      "description": "[ BedroomTwo.Curtain.open , BedroomTwo.HumanState.undetected , Balcony.HumanState.undetected , LivingRoom.HumanState.undetected , Kitchen.HumanState.undetected , Bathroom.HumanState.undetected , Cloakroom.HumanState.undetected , BedroomOne.HumanState.undetected ] will [ Never ] happen simultaneously."
+    },
+    "app": "Privacy and security"
+  },
+  "233": {
+    "id": 14,
+    "dsl": {
+      "value": "Context.Weather.raining & [ LivingRoom.Window.open ] & Never",
+      "description": "[Context.Weather.raining, LivingRoom.Window.open] should [Never] happen simultaneously."
+    },
+    "app": "Raining/Window conflict"
+  },
+  "234": {
+    "id": 15,
+    "dsl": {
+      "value": "BedroomOne.Curtain.on & [ BedroomOne.HumanState.undetected ] & Never",
+      "description": "When [ BedroomOne.HumanState.undetected ] , [ BedroomOne.Curtain.on ] will [ Never ] happen."
+    },
+    "app": "Open curtains"
+  },
+  "235": {
+    "id": 16,
+    "dsl": {
+      "value": "LivingRoom.Humidifier.on & < & 1hour & Always",
+      "description": "The duration of [ LivingRoom.Humidifier.on ] must [ < 1hour ]."
+    },
+    "app": "Excessive humidity"
+  },
+  "236": {
+    "id": 17,
+    "dsl": {
+      "value": "Kitchen.AirPurifier.on & [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ] & 5min & Always",
+      "description": "After [ Kitchen.AirQuality.low, Kitchen.HumanState.detected ], within [ 1min ], [ Kitchen.air_quality_up ] will [ Always ] happen."
+    },
+    "app": "Low air quality"
+  },
+  "237": {
+    "id": 18,
+    "dsl": {
+      "value": "LivingRoom.human_undetected & LivingRoom.Door.close & 1min & Always",
+      "description": "After [LivingRoom.human_undetected], within [ 1min ], [ LivingRoom.Door.close ] will [ Always ] happen."
+    },
+    "app": "Home security"
+  },
+  "238": {
+    "id": 19,
+    "dsl": {
+      "value": "Kitchen.Fridge.on & < & 3min",
+      "description": "The duration of [ Kitchen.Fridge.on ] must [ < 3min ]."
+    },
+    "app": "Fridge works too long"
+  },
+  "239": {
+    "id": 20,
+    "dsl": {
+      "value": "Bathroom.TowerDryer.on & < & 60min",
+      "description": "The duration of [ Bathroom.TowerDryer.on ] must [ < 60min ]."
+    },
+    "app": "Tower Dryer works too long"
+  }
+}
