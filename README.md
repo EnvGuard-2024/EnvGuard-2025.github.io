@@ -3,24 +3,23 @@
 ## Dataset
 
 We collected data in each of the two real-world WoT environments and built a dataset to evaluate EnvGuard. The dataset is publicly available.  
-The dataset for the office environment is as follows:
-([Office Dataset](https://github.com/EnvGuard-2024/EnvGuard-2024.github.io/tree/master/DataSet/OfficeEnvironment))  
+The dataset for the building environment is as follows:
+([Building Dataset](https://github.com/EnvGuard-2024/EnvGuard-2024.github.io/tree/master/DataSet/OfficeEnvironment))  
 The dataset for the home environment is as follows:
 ([Home Dataset](https://github.com/EnvGuard-2024/EnvGuard-2024.github.io/tree/master/DataSet/HomeEnvironment))
 
 <p> 
-We conducted a 14-day continuous data collection in the smart office and smart home, recording user activities, application executions and environment changes by capturing every event and action from the initial environment state. 
-The spatial layout and the deployed devices of the smart office and the smart home are illustrated as follows:
+We conducted a 14-day continuous data collection in the intelligent building and smart home, recording user activities, application executions and environment changes by capturing every event and action from the initial environment state. 
+The spatial layout and the deployed devices of the intelligent building and the smart home are illustrated as follows:
 <div align=center>
-<img width="50%" style="margin-right:2%" src="https://raw.githubusercontent.com/EnvGuard-2024/EnvGuard-2024.github.io/master/images/SmartOfficeEnv.png"/>
-<img width="47%" src="https://raw.githubusercontent.com/EnvGuard-2024/EnvGuard-2024.github.io/master/images/SmartHomeEnv.png"/>
+<img width="98%" src="https://raw.githubusercontent.com/EnvGuard-2024/EnvGuard-2024.github.io/master/images/new_layout.png"/>
 </div>
 </p>
 
 <!-- There are 21 students working and studying in the laboratory, and 5 types of WoT applications are deployed to provide convenience for daily office work. Details of the applications are described below:
 <div align=center><img width="400" src="https://raw.githubusercontent.com/EnvGuard-2024/EnvGuard-2024.github.io/master/images/application.png"/></div> -->
 
-We deployed 5 types of WoT applications in office and home for our daily office work and home life. The applications are as follows:
+We deployed 5 types of WoT applications in building and home for our daily office work and home life. The applications are as follows:
 
 <div align=center> 
 <img width="44.7%" style="margin-right:2%" src="https://raw.githubusercontent.com/EnvGuard-2024/EnvGuard-2024.github.io/master/images/office_application.png"/>
@@ -42,7 +41,7 @@ The visualized environment property description tool.([GUI](http://47.101.169.12
 
 ## Environment Representations
 
-The environment representation of the smart office WoT environment in [neo4j](http://47.101.169.122:7474/browser/) (bolt port: `7687`, username: `neo4j`, password: `12345678`)
+The environment representation of the intelligent building WoT environment in [neo4j](http://47.101.169.122:7474/browser/) (bolt port: `7687`, username: `neo4j`, password: `12345678`)
 
 The environment representation of the smart home WoT environment in [neo4j](http://47.101.169.122:7475/browser/) (bolt port: `7688`, username: `neo4j`, password: `12345678`)
 
@@ -54,8 +53,8 @@ To understand the user preference for resolution actions, we conduct an online u
 ## User Study 2
 
 We invited 47 students (including 17 females) as participants with a variety of majors, including software engineering (21), biology (12), chemistry (9), and law (5). Among the participants, eighteen of them have experience using WoT platforms and developing WoT applications, while the others do not.  
-The constructed properties of the office environment are as follows:
-([Office-User Study 2](https://github.com/EnvGuard-2024/EnvGuard-2024.github.io/blob/master/UserStudy/UserStudyTwo_ConstructedProperties_Office.json))  
+The constructed properties of the building environment are as follows:
+([Building-User Study 2](https://github.com/EnvGuard-2024/EnvGuard-2024.github.io/blob/master/UserStudy/UserStudyTwo_ConstructedProperties_Office.json))  
 The constructed properties of the home environment are as follows:
 ([Home-User Study 2](https://github.com/EnvGuard-2024/EnvGuard-2024.github.io/blob/master/UserStudy/UserStudyTwo_ConstructedProperties_Home.json))
 
