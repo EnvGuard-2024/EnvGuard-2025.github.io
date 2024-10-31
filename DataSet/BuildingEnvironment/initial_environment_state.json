@@ -1,0 +1,110 @@
+{
+    "MeetingRoomTwo": {
+        "device": {
+            "Light": "0",
+            "AC": "0",
+            "Window": "0",
+            "Door": "0",
+            "Humidifier": "0",
+            "AirPurifier": "0",
+            "TV": "0",
+            "Heater": "0",
+            "Curtain": "0"
+        },
+        "state": {
+            "Temperature": "-1",
+            "Brightness": "-1",
+            "Humidity": "1",
+            "Noise": "-1",
+            "AirQuality": "1",
+            "HumanState": "0"
+        }
+    },
+    "TeaRoom": {
+        "device": {
+            "Light": "1",
+            "Window": "0",
+            "Door": "0",
+            "Humidifier": "0",
+            "AirPurifier": "0",
+            "WaterDispenser": "0",
+            "Curtain": "0",
+            "MicrowaveOven": "0"
+        },
+        "state": {
+            "Temperature": "0",
+            "Brightness": "1",
+            "Humidity": "1",
+            "Noise": "-1",
+            "AirQuality": "0",
+            "HumanState": "1"
+        }
+    },
+    "Corridor": {
+        "device": {
+            "Door": "0",
+            "Light": "0",
+            "Speaker": "0"
+        },
+        "state": {
+            "Temperature": "0",
+            "Brightness": "-1",
+            "Humidity": "0",
+            "Noise": "-1",
+            "AirQuality": "0",
+            "HumanState": "0"
+        }
+    },
+    "Context": {
+        "device": {},
+        "state": {
+            "Temperature": "-1",
+            "Brightness": "-1",
+            "Humidity": "0",
+            "AirQuality": "0",
+            "Weather": "sunny"
+        }
+    },
+    "Lab": {
+        "device": {
+            "AC": "0",
+            "Window": "0",
+            "Door": "0",
+            "Humidifier": "0",
+            "AirPurifier": "0",
+            "Printer": "0",
+            "Heater": "0",
+            "Curtain": "1",
+            "Light": "0"
+        },
+        "state": {
+            "Temperature": "-1",
+            "Brightness": "-1",
+            "Humidity": "1",
+            "Noise": "-1",
+            "AirQuality": "0",
+            "HumanState": "1"
+        }
+    },
+    "MeetingRoomOne": {
+        "device": {
+            "AC": "0",
+            "Window": "0",
+            "Door": "0",
+            "Humidifier": "0",
+            "AirPurifier": "0",
+            "TV": "0",
+            "Heater": "0",
+            "Curtain": "0",
+            "Light": "1"
+        },
+        "state": {
+            "Temperature": "1",
+            "Brightness": "1",
+            "Humidity": "1",
+            "Noise": "-1",
+            "AirQuality": "1",
+            "HumanState": "0"
+        }
+    }
+}
